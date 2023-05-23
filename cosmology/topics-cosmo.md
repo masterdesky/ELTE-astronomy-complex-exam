@@ -34,3 +34,4 @@ symmetry breaking: the typical time and energy scale of inflation;
 inflationary solution of the cosmological problems)
 
 ## Recommended reading:
+- Scott D. "Modern cosmology". Cambridge UP. 2015. ISBN 978−1−107−07433−8.

@@ -7,34 +7,19 @@
 
 ### 2.1.3. Scattering
 
+
 ## 2.2 Continuum radiations
 ### 2.2.1. Blackbody radiation
-Blackbody radiation is the radiation emitted by a blackbody. The energy density of blackbody radiation is given by
+Blackbody radiation is a continuous spectrum of radiation emitted by an object in thermal equilibrium. It's characterized by the object's temperature, with the peak of the emission shifting to shorter wavelengths as temperature increases (Wien's Displacement Law) and the total energy emitted increasing with the fourth power of the temperature (Stefan-Boltzmann Law). The spectral radiance of the blackbody radiation is given by the Planck's law as
 
 $$
-u_{\rm bb} = \frac{8 \pi h}{c^3} \frac{\nu^3}{e^{h \nu / k_B T} - 1} \, ,
+B_{\nu} = \frac{2 h \nu^3}{c^2} \frac{1}{\exp \left( \frac{h \nu}{k_B T} \right) - 1} \, ,
 $$
 
-where $h$ is the Planck constant, $c$ is the speed of light, $\nu$ is the frequency of the radiation, $k_B$ is the Boltzmann constant, and $T$ is the temperature of the blackbody. The energy density of blackbody radiation is also given by
-
-$$
-u_{\rm bb} = a T^4 \, ,
-$$
-
-where $a$ is the radiation constant. The energy density of blackbody radiation is also given by
-
-$$
-u_{\rm bb} = \frac{4 \sigma}{c} T^4 \, ,
-$$
-
-where $\sigma$ is the Stefan-Boltzmann constant. The energy density of blackbody radiation is also given by
-
-$$
-u_{\rm bb} = \frac{4 \pi^2 k_B^4}{15 c^3 h^3} T^4 \, .
-$$
+where $h$ is the Planck constant, $c$ is the speed of light, $k_B$ is the Boltzmann constant, $\nu$ is the frequency of the radiation, and $T$ is the temperature of the object.
 
 ### 2.2.2. Synchrotron radiation
-Synchrotron radiation is the radiation emitted by a charged particle when it is accelerated by a magnetic field. The energy of the emitted photon is given by
+Synchrotron radiation is emitted when charged particles are accelerated radially, i.e., when they are subject to an acceleration perpendicular to their velocity. It is produced, for example, in synchrotrons using bending magnets, undulators and/or wigglers. In astrophysics, synchrotron radiation from high-energy electrons spiraling around magnetic field lines is a major source of radio emission in a variety of objects, including supernova remnants and active galactic nuclei. The energy of the emitted photon is given by
 
 $$
 E_{\rm ph} = \frac{1}{2} \frac{e^2}{4 \pi \epsilon_0} \frac{1}{m_e c^2} \frac{1}{r} \, ,
@@ -47,7 +32,7 @@ $$
 $$
 
 ### 2.2.3. Bremsstrahlung radiation
-Bremstrahlung radiation is the radiation emitted by a charged particle when it is accelerated by another charged particle. The energy of the emitted photon is given by
+Bremsstrahlung radiation is produced by the acceleration or deceleration of a charged particle, usually an electron, in the electric field of another charged particle, such as an atomic nucleus. The radiation is continuous because the energy of the emitted photon can take on any value up to the kinetic energy of the particle. The energy of the emitted photon is given by
 
 $$
 E_{\rm ph} = \frac{1}{2} \frac{e^2}{4 \pi \epsilon_0} \frac{1}{m_e c^2} \frac{1}{r} \, ,
@@ -75,8 +60,8 @@ $$
 where $\sigma_T$ is the Thomson cross section.
 
 ## 2.4. Spectral lines and their formation
-### 2.4.1. Atomic structure
 
+### 2.4.1. Atomic structure
 ### 2.4.2. Line formation
 
 ### 2.4.3. Line profiles
