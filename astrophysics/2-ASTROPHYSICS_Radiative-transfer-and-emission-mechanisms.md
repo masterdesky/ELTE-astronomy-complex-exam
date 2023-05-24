@@ -1,5 +1,24 @@
 # 2. Radiative transfer and emission mechanisms
 ## 2.1. Radiative transfer
+Radiative transfer is the physical process of energy transfer in the form of electromagnetic radiation. It describes the interactions of radiation with matter, and the transport of radiation through matter. The equation of radiative transfer is given by
+
+$$
+\frac{d I_{\nu}}{d s} = - \kappa_{\nu} I_{\nu} + j_{\nu} \, ,
+$$
+
+where $I_{\nu}$ is the specific intensity of the radiation, $\kappa_{\nu}$ is the absorption coefficient, $j_{\nu}$ is the emission coefficient, and $s$ is the distance along the path of the radiation. The absorption coefficient is given by
+
+$$
+\kappa_{\nu} = \sigma_{\nu} \rho \, ,
+$$
+
+where $\sigma_{\nu}$ is the absorption cross section and $\rho$ is the density of the material. The emission coefficient is given by
+
+$$
+j_{\nu} = \sigma_{\nu} \rho B_{\nu} \, ,
+$$
+
+where $B_{\nu}$ is the Planck function. The equation of radiative transfer can be solved analytically for simple geometries and boundary conditions, but in general it requires numerical methods. The radiative transfer equation is a special case of the Boltzmann transport equation, which describes the transport of particles through a medium.
 
 ### 2.1.1. Emission
 
