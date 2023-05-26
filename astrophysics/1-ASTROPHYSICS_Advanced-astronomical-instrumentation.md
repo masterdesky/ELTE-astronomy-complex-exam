@@ -1,5 +1,5 @@
 # 1. Advanced astronomical instrumentation
-- Astronomical instruments can be classified based on several different attributes
+Astronomical instruments can be classified based on several different attributes
 ## 1.1. Classification by **detection domain**
 ### 1.1.1. Optical instruments
 
