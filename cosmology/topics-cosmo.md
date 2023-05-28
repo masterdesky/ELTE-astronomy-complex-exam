@@ -19,7 +19,7 @@ cosmological analysis of the CMB power spectrum, primordial
 gravitational waves)
 5. Particle cosmology
 (thermodynamics of relativistic and nonrelativistic particles; 
-decoupling of particles; the entropy of the Universe, the 
+decoupling of particles; the entropy of the Universe; the 
 temperature of the neutrino gas; particle horizon)
 6. Thermal history of the Universe
 (primordial nucleosynthesis, the determination of the 

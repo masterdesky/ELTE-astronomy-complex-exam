@@ -2,6 +2,7 @@
 
 ## 10.1. Structure of the Milky Way
 ### 10.1.1. Disk
+
 ### 10.1.2. Bulge
 ### 10.1.3. Halo
 
