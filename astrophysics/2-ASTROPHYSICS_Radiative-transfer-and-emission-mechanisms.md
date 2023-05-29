@@ -44,8 +44,12 @@ Scattering is the process by which the direction of a photon is changed without 
 - **Inverse Compton Scattering**: This is a process where a low-energy photon gains energy by scattering off a high-energy charged particle, typically an electron.
 
 ## 2.2 Continuum radiations
-### 2.2.1. Blackbody radiation
-Blackbody radiation is a continuous spectrum of radiation emitted by an object in thermal equilibrium. It's characterized by the object's temperature, with the peak of the emission shifting to shorter wavelengths as temperature increases (Wien's Displacement Law) and the total energy emitted increasing with the fourth power of the temperature (Stefan-Boltzmann Law). The spectral radiance of the blackbody radiation is given by the Planck's law as
+### 2.2.1. Thermal radiation and blackbody radiation
+Thermal radiation is a type of electromagnetic radiation that is emitted by all matter with a temperature above absolute zero. It is a result of the random motions of particles within the matter, which generate fluctuating electric and magnetic fields. The characteristics of thermal radiation depend on the temperature of the emitting body and its properties.
+
+An idealized model of thermal radiation is the blackbody radiation, which is the continuous spectrum of radiation emitted by an object in thermal equilibrium. A blackbody is a hypothetical object that absorbs all incident radiation, regardless of frequency or angle of incidence. It is also a perfect emitter of radiation, with the emitted radiation solely a function of its temperature.
+
+Blackbody radiation is characterized by the object's temperature, with the peak of the emission shifting to shorter wavelengths as temperature increases (Wien's Displacement Law) and the total energy emitted increasing with the fourth power of the temperature (Stefan-Boltzmann Law). The spectral radiance of the blackbody radiation is given by the Planck's law as
 
 $$
 B_{\nu} = \frac{2 h \nu^3}{c^2} \frac{1}{\exp \left( \frac{h \nu}{k_B T} \right) - 1} \, ,
@@ -57,7 +61,7 @@ $$
 j^{\ast} = \sigma T^4 \, ,
 $$
 
-where $\sigma$ is the Stefan-Boltzmann constant.
+where $\sigma$ is the Stefan-Boltzmann constant. While no real object is a perfect blackbody, many celestial objects, including stars and the cosmic microwave background radiation, can be approximated as blackbodies. However, it is important to remember that the radiation emitted from these objects will deviate from the blackbody spectrum due to eg. absorption and emission, and other physical processes.
 
 ### 2.2.2. Synchrotron radiation
 Synchrotron radiation is emitted when charged particles are accelerated radially, i.e., when they are subject to an acceleration perpendicular to their velocity. It is produced, for example, in synchrotrons using bending magnets, undulators and/or wigglers. In astrophysics, synchrotron radiation from high-energy electrons spiraling around magnetic field lines is a major source of radio emission in a variety of objects, including supernova remnants and active galactic nuclei. The instantaneous power radiated by a moving electron, valid in the relativistic case, is given by the Liénard formula

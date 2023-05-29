@@ -39,18 +39,27 @@ Both the Jeans mass and length are dependent on the temperature and density of t
 As a cloud undergoes gravitational collapse, it doesn't typically form a single star. Instead, the cloud often fragments into multiple smaller clumps, each capable of forming a star or even multiple stars. This fragmentation process is attributed to several factors, including thermal instabilities and rotational dynamics within the collapsing cloud. The outcome is frequently a cluster of stars, all of which originate from the same parent cloud. Additionally, fragmentation results in a broad spectrum of stellar masses, a crucial factor in determining the varieties of stars that form and their subsequent evolution.
 
 ## 4.3. Protostars and accretion disks
-During the early stages of star formation, as a fragment of a molecular cloud continues to contract under its own gravity, the gravitational potential energy of the gas is transformed into thermal energy. This conversion results in the heating of the central region of the cloud fragment, leading to the formation of a protostar—a hot, dense core of gas that is in the process of becoming a star.
+During the early stages of star formation, as a fragment of a molecular cloud continues to contract under its own gravity, the gravitational potential energy of the gas is transformed into thermal energy. This conversion results in the heating of the central region of the cloud fragment, leading to the formation of a protostar - a hot, dense core of gas that is in the process of becoming a star.
 
 As the protostar evolves, it gradually accrues material from the surrounding cloud, a process known as accretion. The gas from the cloud doesn't fall directly onto the protostar, but instead spirals inwards, forming a rotating accretion disk around the protostar. This disk not only fuels the growth of the protostar but also plays a crucial role in the formation of planetary systems.
 
-
-### 4.3.1. Protostar Evolution and Accretion
+### 4.3.1. Protostar evolution and accretion
 The evolution of a protostar itself can also be characterized by a series of stages. Initially, the protostar is deeply embedded within the cloud fragment and is thus heavily obscured from optical telescopes. During this phase, the thermally evolving protostar primarily emits radiation in the infrared via blackbody radiation and dust re-radiation. As the protostar continues to accumulate mass, it also grows in size and temperature.
 
 The accretion process is not constant but can vary over time. It's often associated with energetic phenomena such as outflows and jets, which are thought to be driven by the interaction of the accreting material with the magnetic fields of the protostar and the accretion disk.
 
 The protostar phase concludes when the core of the protostar becomes sufficiently hot and dense for nuclear fusion to begin. This marks the birth of a new star. The onset of nuclear fusion initiates the transition from the protostar stage to the main sequence stage of a star’s life, wherein the star shines by fusing hydrogen into helium in its core.
 
-## 4.4. Main sequence stars and stellar clusters
+## 4.4. Stellar feedback and its impact on star formation
+Stars significantly influence their surroundings, a process known as stellar feedback. Stellar feedback is the collective term for the effects that stars have on the interstellar medium (ISM), including the impact of stellar winds, radiation pressure, supernova explosions, and ionizing radiation.
 
-## 4.5. Stellar feedback and its impact on star formation
+### 4.4.1. Stellar winds and radiation pressure
+Stellar winds are streams of charged particles that are ejected from the upper atmosphere of a star. These winds carry away a significant fraction of a star’s mass over its lifetime and can disrupt the surrounding ISM. Similarly, radiation pressure, which is the momentum transfer of photons to matter, can drive gas out of a molecular cloud, inhibiting further star formation.
+
+### 4.4.2. Supernova explosions
+Supernova explosions, the violent death of a star, are one of the most extreme forms of stellar feedback. These explosions disperse heavy elements into the ISM, contributing to the chemical evolution of a galaxy. The shock waves from supernova explosions can also trigger the formation of new stars by compressing molecular clouds.
+
+### 4.4.3. Ionizing radiation
+Hot, massive stars emit a significant amount of ionizing radiation, which can ionize the surrounding ISM, creating regions known as H II regions. These regions can disrupt molecular clouds and affect the star formation process.
+
+Understanding stellar feedback mechanisms is crucial to comprehending the lifecycle of galaxies and the evolution of the universe, as these processes play a significant role in shaping the structure of galaxies and controlling the rate of star formation.

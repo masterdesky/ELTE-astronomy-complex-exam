@@ -85,29 +85,38 @@ Neutron star mergers are another key site for the production of heavy elements. 
 
 During the merger, a significant fraction of the neutron stars' mass is ejected. This ejected material, which is rich in neutrons, provides the perfect conditions for the $r$-process, leading to the formation of heavy elements. Recent observations of gravitational waves from neutron star mergers, accompanied by a kilonova (an optical and infrared glow from the radioactive decay of heavy elements), provide strong evidence for this process.
 
-## 5.4. Stellar lifetimes and death
-Stars spend the majority of their lives in a stage called the main sequence, where they are fusing hydrogen into helium in their cores. The length of time a star stays in this stage, as well as its ultimate fate, is determined primarily by its initial mass.
+## 5.4. Main sequence stars and stellar clusters
+Once nuclear fusion is ignited inside a star's core and it stabilized, it enters the longest phase of its life - the main sequence phase. Main sequence stars are in a state of hydrostatic equilibrium, where the outward pressure from the energy produced by nuclear fusion in the core balances the inward pull of gravity. The length of time a star stays in this stage, as well as its ultimate fate, is determined primarily by its initial mass.
 
-### 5.4.1. Low-mass stars
+### 4.4.1. Main Sequence Stars
+The properties of a main sequence star, such as its luminosity, surface temperature, and lifespan, are primarily determined by its mass. Stars with higher mass have shorter main sequence lifetimes due to their higher core temperatures and faster fusion rates. On the other hand, lower mass stars, like our Sun, have longer lifetimes as they burn their fuel more slowly. The Hertzsprung-Russell (H-R) diagram is a useful tool for visualizing the relationship between the luminosity and temperature of main sequence stars.
+
+### 4.4.2. Stellar Clusters
+Stars are not solitary entities, they often form in groups known as stellar clusters. These clusters are broadly categorized into two types: open clusters and globular clusters. Open clusters, which are generally found in the disk of a galaxy, contain a few hundred to a few thousand stars that were born from the same molecular cloud. Globular clusters, on the other hand, are densely packed spherical collections of stars that orbit the center of a galaxy.
+
+Studying stellar clusters is crucial in astrophysics as they provide insights into star formation and evolution, the age of the universe, and the properties of the galaxies they inhabit.
+
+## 5.5. The ultimate fate of stars
+### 5.5.1. Low-mass stars
 Stars with masses less than about $0.5 M_{\odot}$ are considered low-mass stars. They burn their hydrogen fuel very slowly and can remain in the main sequence stage for hundreds of billions of years, far longer than the current age of the universe.
 
 When they exhaust their hydrogen fuel, these stars do not have sufficient gravity to ignite helium fusion. Instead, they become helium white dwarfs, fading away slowly as they radiate away their residual heat.
 
-### 5.4.2. Intermediate-mass stars
+### 5.5.2. Intermediate-mass stars
 Stars with masses between about $0.5 M_{\odot}$ and $8 M_{\odot}$ are considered intermediate-mass stars. Our Sun is an example of this category. These stars burn through their hydrogen fuel in a few billion to tens of billions of years.
 
 When the hydrogen in the core is exhausted, these stars start to fuse helium into carbon and oxygen in their core, becoming red giants in the process. Eventually, the core becomes a mix of carbon and oxygen, which does not ignite in stars of this mass.
 
 The outer layers of the star are ejected as a planetary nebula, and the core becomes a white dwarf. Over billions of years, white dwarfs cool and dim, eventually becoming black dwarfs.
 
-### 5.4.3. High-mass stars
+### 5.5.3. High-mass stars
 Stars with masses greater than about $8 M_{\odot}$ are considered high-mass stars. They burn through their hydrogen fuel rapidly, in approximately tens of millions of years.
 
 When the hydrogen in the core is exhausted, these stars can fuse increasingly heavier elements in their cores, up to iron. When the core becomes iron, fusion no longer generates energy, and the core collapses under its own gravity, resulting in a supernova explosion.
 
 The remnant of the supernova can become a neutron star or, if the original star was massive enough, a black hole.
 
-### 5.4.4. Super-heavy stars
+### 5.5.4. Super-heavy stars
 Stars with masses greater than about $100 M_{\odot}$ are considered super-heavy stars. Due to the incredibly high pressures and temperatures at their cores they burn through their nuclear fuel fuel in a few million years, which is extremely brief compared to the billions of years that stars like the Sun live. This fast energy generation leads to strong radiation pressure that can cause the star to lose a significant fraction of its mass over its (very short) lifetime in a strong stellar wind.
 
 When it comes to their death, there are a few possible outcomes, and the exact details are still an active area of research in astrophysics. One possible outcome is a pair-instability supernova. In these extremely massive stars, when the core temperature rises high enough, it can produce pairs of electrons and positrons. These particles reduce the pressure support inside the star, causing it to partially collapse, which in turn triggers a runaway thermonuclear explosion that can completely disrupt the star, leaving no remnant behind.
