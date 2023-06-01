@@ -2,7 +2,6 @@
 
 ## 1.1. Galaxy classification schemes
 ### 1.1.1. Hubble sequence
-
 ### 1.1.2. De Vaucouleurs system
 
 ## 1.2. Components of galaxies

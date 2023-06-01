@@ -94,7 +94,64 @@ $$
 
 Here, $\ddot{a}$ denotes the second derivative of the scale factor with respect to time, and $p$ is the pressure of the matter-energy content of the universe. It states that the acceleration can be affected by the total energy density of the universe, as well as the pressure of the matter-energy content of the universe, effectively decelerating the expansion process.
 
+Reformulating and simplyfying the Friedmann equations we can arrive on an easier-to-use form:
+
+$$
+    H^2
+    =
+    \left( \frac{\dot{a}}{a} \right)^2
+    =
+    \frac{8\pi G}{3} \varrho
+    -
+    \frac{kc^2}{a^2} \, ,
+$$
+
+$$
+    \dot{H} + H^2
+    =
+    \frac{\ddot{a}}{a}
+    =
+    -\frac{4\pi G}{3} \left( \varrho + \frac{3p}{c^2} \right) \, .
+$$
+
 The equations above incorporate the three main "constituents" of the universe: matter (characterized by its energy density $\rho$), curvature (characterized by $k$), and dark energy or the cosmological constant ($\Lambda$). By solving these equations, we can describe the evolution of the universe as a function of its matter and energy content.
+
+We can define a specific density parameter $\Omega$ for each of these constituents, which is the ratio of the actual density of the constituent to the critical density $\varrho_c$:
+
+$$
+    \Omega
+    =
+    \frac{\varrho}{\varrho_c}
+    =
+    \frac{8\pi G \varrho}{3 H^2} \, ,
+    \quad\quad
+    \Omega_{i}
+    =
+    \frac{\varrho_{i}(t)}{\varrho_{c}(t)}
+$$
+
+We can then define a density $\Omega_{i}$ for each of the constituents themeselves:
+
+$$
+    \Omega
+    =
+    \Omega_R + \Omega_M + \Omega_k + \Omega_\Lambda
+    \left( + \Omega_{\text{others}} \right) \, .
+$$
+
+Here, $\Omega_R$ is the density parameter for radiation, $\Omega_M$ is the density parameter for matter (dark matter and baryonic matter), $\Omega_k$ is the density parameter for curvature, and $\Omega_\Lambda$ is the density parameter for dark energy. $\Omega_{\text{others}}$ is a placeholder for other constituents that may be present in the universe, not known to science at the time of writing.
+
+Using these densities, the first Friedmann equation can then be rewritten for any epoch of the universe in context of the present epoch (where $a=1$ and $H=H_{0}$) and where the density parameters are fixed at their present values:
+
+$$
+    \frac{H^{2}}{H_{0}^{2}}
+    =
+    \Omega_{0,R} a^{-4} + \Omega_{0,M} a^{-3}
+    +
+    \Omega_{0,k} a^{-2} + \Omega_{0,\Lambda} \, .
+$$
+
+Here eg. $\Omega_{0,R}$ is the density parameter for radiation at the present epoch, $\Omega_{0,M}$ is the density parameter for matter at the present epoch, and so on.
 
 Similarly to the remarks made about the FLRW metric, the Friedmann equations are best applicable on large scales where the assumptions of the cosmological principle hold. For smaller scales or in cases where more detail is needed, more complex models and equations may be needed.
 
@@ -113,7 +170,7 @@ $$
     \sum_{\mu} \nabla_\mu T^{\mu \nu} = 0 \, ,
 $$
 
-a global conservation law is much more elusive.
+a global conservation law is much more elusive. At the end of the day, when we talk about "conservation of energy" in the context of cosmology and general relativity, we talk about energy conservation in a local sense, where it is still valid.
 
 Moreover, in an expanding universe, one has to take into account the redshift of photons. As the universe expands, the energy of a photon decreases as its wavelength gets stretched. This energy seemingly "disappears". Some propose that this radiant energy transforms into gravitational energy, while others suggest the energy is simply lost. Regardless, these phenomena aren't considered as "exceptions" to the law of energy conservation, but rather a reflection of the fact that the notion of "total energy" is more subtle in the context of general relativity and an expanding universe.
 
@@ -121,7 +178,7 @@ Moreover, in an expanding universe, one has to take into account the redshift of
 The Hubble-Lemaître Law, named after astronomers Edwin Hubble and Georges Lemaître, is a key principle in modern cosmology. It states that the universe is expanding uniformly, with galaxies moving away from each other at a speed proportional to their distance. This can be expressed as:
 
 $$
-    v = H_{0} \cdot d
+    v = H_{0} d
 $$
 
 where $v$ is the velocity of the galaxy, $H_{0}$ is the Hubble constant, and $d$ is the distance to the galaxy.

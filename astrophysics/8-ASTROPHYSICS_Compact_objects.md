@@ -58,7 +58,7 @@ These peculiar objects are primarily characterized by a region of spacetime call
 
 The singularity is the region in the center, where the curvature of spacetime becomes infinite according to general relativity. However, it is expected that quantum gravity effects become important at the singularity, and our current theories are not able to accurately describe what happens there neither mathematically nor physically.
 
-Due to the conservation of angular momentum, practically all black holes are expected to rotate. The exact spin of a black hole is characterized by the dimensionless parameter $a$, which ranges from $0$ (non-rotating) to $1$ (maximally rotating). The spin of a black hole is expected to be proportional to its mass, so we can also characterize it by the dimensionless spin parameter $a_*$, which is defined as $a_* = a / M$, where $M$ is the mass of the black hole.
+Due to the conservation of angular momentum, practically all black holes are expected to rotate. The exact spin of a black hole is characterized by the dimensionless parameter $\chi$, which ranges from $0$ (non-rotating) to $1$ (maximally rotating). The spin of a black hole is expected to be proportional to its mass, so we can also characterize it by the dimensionless spin parameter $\chi_\ast$, which is defined as $\chi_\ast = \chi / M$, where $M$ is the mass of the black hole.
 
 ### 8.3.3. Evolution
 Once formed, black holes can grow by absorbing mass from their surroundings. In the centers of galaxies, supermassive black holes can accumulate millions to billions of solar masses.
