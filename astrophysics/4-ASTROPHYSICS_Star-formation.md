@@ -18,19 +18,19 @@ Gravitational collapse is the fundamental process that leads to star formation w
 One of the critical concepts linked to gravitational collapse is the Jeans instability, named after the British physicist James Jeans. The Jeans criterion establishes a threshold for collapse: a cloud - or a part thereof - will collapse if if its radius surpasses the *Jeans length*
 
 $$
-\lambda_{J}
-=
-\left(
-    \frac{15 k_{B} T}{4 \pi G m_{p} \mu \varrho}
-\right)^{\frac{1}{2}} \, ,
+    \lambda_{J}
+    =
+    \left(
+        \frac{15 k_{B} T}{4 \pi G m_{p} \mu \varrho}
+    \right)^{\frac{1}{2}} \, ,
 $$
 
 where $k_{B}$ is the Boltzmann constant, $T$ is the temperature of the cloud, $G$ is the gravitational constant, $m_{p}$ is the mass of a proton, $\mu$ is the mean molecular weight of the cloud, and $\varrho$ is the density of the cloud. Similarly, a cloud will collapse if its mass exceeds the *Jeans mass*
 
 $$
-M_{J}
-=
-\frac{4 \pi}{3} \varrho \left( \frac{\lambda_{J}}{2} \right)^{3} \, .
+    M_{J}
+    =
+    \frac{4 \pi}{3} \varrho \left( \frac{\lambda_{J}}{2} \right)^{3} \, .
 $$
 
 Both the Jeans mass and length are dependent on the temperature and density of the cloud, along with the mass of the particles it contains. A cloud that is cooler and denser will possess a smaller Jeans mass and length, which elevates the likelihood of gravitational collapse.

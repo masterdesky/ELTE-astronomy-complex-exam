@@ -5,24 +5,26 @@ The energy source that powers stars and enables them to shine brightly for billi
 The primary nuclear fusion process in stars like the Sun is the proton-proton chain. This process involves the combination of hydrogen nuclei (protons) to form helium, with several steps:
 
 1. Two protons combine to form a deuterium nucleus (a proton and a neutron), a positron, and a neutrino:
-    $$
+$$
     p^{+} + p^{+}
     \to
     d^{+} + e^{+} + \nu_{e}
-    $$
+$$
 
 2. The deuterium nucleus then combines with another proton to form a $\operatorname{He}^{3}$ nucleus:
-    $$
+$$
     d^{+} + p^{+}
     \to
     \operatorname{He}^{3} + γ
-    $$
+$$
+
 3. Finally, two $\operatorname{He}^{3}$ nuclei combine to form $\operatorname{He}^{4}$, releasing two protons in the process:
-    $$
+$$
     \operatorname{He}^{3} + \operatorname{He}^{3}
     \to
     \operatorname{He}^{4} + p^{+} + p^{+}
-    $$
+$$
+
 In this process, some mass is converted into energy, as described by Einstein's famous equation $E=mc^{2}$. The energy released in the form of gamma-ray photons ($\gamma$) eventually reaches the surface of the star and is emitted as light.
 
 ## 5.2. CNO cycle
@@ -31,34 +33,34 @@ The CNO (carbon-nitrogen-oxygen) cycle is a competing nuclear fusion process tha
 The basic CNO cycle involves these reactions:
 
 1. $\operatorname{C}^{12}$ captures a proton to form $\operatorname{N}^{13}$:
-    $$
-    \operatorname{C}^{12} + p^{+} \to N-13
-    $$
+$$
+    \operatorname{C}^{12} + p^{+} \to \operatorname{N}^{13}
+$$
 
 2. $\operatorname{N}^{13}$ undergoes beta decay to form $\operatorname{C}^{13}$:
-    $$
+$$
     \operatorname{N}^{13} \to \operatorname{C}^{13} + e^{+} + \nu_{e}
-    $$
+$$
 
 3. $\operatorname{C}^{13}$ captures a proton to form $\operatorname{N}^{14}$:
-    $$
+$$
     \operatorname{C}^{13} + p^{+} \to \operatorname{N}^{14}
-    $$
+$$
 
-4. Nitrogen-14 (N-14) captures a proton to form $\operatorname{C}^{15}$:
-    $$
+4. $\operatorname{N}^{14}$ captures a proton to form $\operatorname{C}^{15}$:
+$$
     \operatorname{N}^{14} + p^{+} \to \operatorname{C}^{15}
-    $$
+$$
 
 5. $\operatorname{C}^{15}$ undergoes beta decay to form $\operatorname{N}^{15}$:
-    $$
+$$
     \operatorname{C}^{15} \to \operatorname{N}^{15} + e^{+} + \nu_{e}
-    $$
+$$
 
 6. $\operatorname{N}^{15}$ captures a proton and releases a helium-4 nucleus, regenerating the initial $\operatorname{C}^{12}$ nucleus:
-    $$
+$$
     \operatorname{N}^{15} + p^{+} \to \operatorname{C}^{12} + \operatorname{He}^{4}
-    $$
+$$
 
 The net effect of the CNO cycle, like the p-p chain, is to convert hydrogen into helium, with a release of energy.
 

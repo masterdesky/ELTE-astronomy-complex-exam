@@ -3,19 +3,19 @@
 Radiative transfer is the physical process of energy transfer in the form of electromagnetic radiation. It describes the interactions of radiation with matter, and the transport of radiation through matter. The equation of radiative transfer is given by
 
 $$
-\frac{d I_{\nu}}{d s} = - \kappa_{\nu} I_{\nu} + j_{\nu} \, ,
+    \frac{d I_{\nu}}{d s} = - \kappa_{\nu} I_{\nu} + j_{\nu} \, ,
 $$
 
 where $I_{\nu}$ is the specific intensity of the radiation, $\kappa_{\nu}$ is the absorption coefficient, $j_{\nu}$ is the emission coefficient, and $s$ is the distance along the path of the radiation. The absorption coefficient is given by
 
 $$
-\kappa_{\nu} = \sigma_{\nu} \rho \, ,
+    \kappa_{\nu} = \sigma_{\nu} \rho \, ,
 $$
 
 where $\sigma_{\nu}$ is the absorption cross section and $\rho$ is the density of the material. The emission coefficient is given by
 
 $$
-j_{\nu} = \sigma_{\nu} \rho B_{\nu} \, ,
+    j_{\nu} = \sigma_{\nu} \rho B_{\nu} \, ,
 $$
 
 where $B_{\nu}$ is the Planck function. The equation of radiative transfer can be solved analytically for simple geometries and boundary conditions, but in general it requires numerical methods. The radiative transfer equation is a special case of the Boltzmann transport equation, which describes the transport of particles through a medium.
@@ -52,13 +52,15 @@ An idealized model of thermal radiation is the blackbody radiation, which is the
 Blackbody radiation is characterized by the object's temperature, with the peak of the emission shifting to shorter wavelengths as temperature increases (Wien's Displacement Law) and the total energy emitted increasing with the fourth power of the temperature (Stefan-Boltzmann Law). The spectral radiance of the blackbody radiation is given by the Planck's law as
 
 $$
-B_{\nu} = \frac{2 h \nu^3}{c^2} \frac{1}{\exp \left( \frac{h \nu}{k_B T} \right) - 1} \, ,
+    B_{\nu}
+    =
+    \frac{2 h \nu^3}{c^2} \frac{1}{\exp \left( \frac{h \nu}{k_B T} \right) - 1} \, ,
 $$
 
 where $h$ is the Planck constant, $c$ is the speed of light, $k_B$ is the Boltzmann constant, $\nu$ is the frequency of the radiation, and $T$ is the temperature of the object. The total energy $j^{\ast}$, radiated per unit surface area of a black body across all wavelengths per unit time is given by the Stefan-Boltzmann law as
 
 $$
-j^{\ast} = \sigma T^4 \, ,
+    j^{\ast} = \sigma T^4 \, ,
 $$
 
 where $\sigma$ is the Stefan-Boltzmann constant. While no real object is a perfect blackbody, many celestial objects, including stars and the cosmic microwave background radiation, can be approximated as blackbodies. However, it is important to remember that the radiation emitted from these objects will deviate from the blackbody spectrum due to eg. absorption and emission, and other physical processes.
@@ -67,12 +69,12 @@ where $\sigma$ is the Stefan-Boltzmann constant. While no real object is a perfe
 Synchrotron radiation is emitted when charged particles are accelerated radially, i.e., when they are subject to an acceleration perpendicular to their velocity. It is produced, for example, in synchrotrons using bending magnets, undulators and/or wigglers. In astrophysics, synchrotron radiation from high-energy electrons spiraling around magnetic field lines is a major source of radio emission in a variety of objects, including supernova remnants and active galactic nuclei. The instantaneous power radiated by a moving electron, valid in the relativistic case, is given by the Liénard formula
 
 $$
-P
-=
-\frac{2}{3}
-\frac{e^2}{4 \pi \epsilon_0}
-\frac{1}{c} \gamma^6
-\left( \boldsymbol{\dot{\beta}} - \left( \boldsymbol{\beta} \wedge \boldsymbol{\dot{\beta}} \right) \right) \, ,
+    P
+    =
+    \frac{2}{3}
+    \frac{e^2}{4 \pi \epsilon_0}
+    \frac{1}{c} \gamma^6
+    \left( \boldsymbol{\dot{\beta}} - \left( \boldsymbol{\beta} \wedge \boldsymbol{\dot{\beta}} \right) \right) \, ,
 $$
 
 where $e$ is the electron charge, $\epsilon_{0}$ is the vacuum permittivity, $c$ is the speed of light, $\gamma$ is the Lorentz factor, $\boldsymbol{\beta} = \boldsymbol{v}/c$ is the velocity of the electron in units of the speed of light, and $\boldsymbol{\dot{\beta}} = \boldsymbol{a}/c^2$ is the acceleration of the electron in units of the speed of light squared.
@@ -80,11 +82,11 @@ where $e$ is the electron charge, $\epsilon_{0}$ is the vacuum permittivity, $c$
 For a non-relativistic electron, the instantaneous power radiated is given by the Larmor formula as:
 
 $$
-P
-=
-\frac{2}{3}
-\frac{e^2}{4 \pi \epsilon_0}
-\frac{1}{c} \frac{\dot{v}^{2}}{c^{2}} \, ,
+    P
+    =
+    \frac{2}{3}
+    \frac{e^2}{4 \pi \epsilon_0}
+    \frac{1}{c} \frac{\dot{v}^{2}}{c^{2}} \, ,
 $$
 
 where $r$ is the radius of curvature of the electron's trajectory.
@@ -98,9 +100,10 @@ Bremmstrahlung radiation is the dominant source of X-rays from the Sun and other
 Compton scattering is the scattering of photons off of relativistic electrons. The energy of the scattered photon is given by the Compton formula as
 
 $$
-E_{\gamma}^{\prime}
-=
-\frac{E_{\gamma}}{1 + \frac{E_{\gamma}}{m_{e} c^{2}} \left( 1 - \cos \theta \right)} \, ,
+    E_{\gamma}^{\prime}
+    =
+    \frac{E_{\gamma}}{1 + \frac{E_{\gamma}}{m_{e} c^{2}}
+    \left( 1 - \cos \theta \right)} \, ,
 $$
 
 where $E_{\gamma}$ is the energy of the incident photon, $E_{\gamma}^{\prime}$ is the energy of the scattered photon, $m_{e}$ is the electron mass, $c$ is the speed of light, and $\theta$ is the scattering angle.

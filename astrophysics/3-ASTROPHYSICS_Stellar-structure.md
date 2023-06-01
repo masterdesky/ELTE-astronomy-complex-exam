@@ -5,7 +5,7 @@
 The virial theorem is a fundamental principle that establishes a relationship between the average kinetic energy and the potential energy of a system in equilibrium. It is a generalization of the theorem of kinetic energy for a particle moving in a conservative force field. For stable systems, the theorem states that the average kinetic energy is equal to half the average potential energy with an opposite sign. Mathematically:
 
 $$
-\langle T \rangle = -\frac{1}{2} \langle U \rangle \, ,
+    \langle T \rangle = -\frac{1}{2} \langle U \rangle \, ,
 $$
 
 where $\langle T \rangle$ is the average kinetic energy and $\langle U \rangle$ is the average potential energy. This applies to gravitational systems as well as to systems bound by an electric force or any other conservative force.
@@ -18,18 +18,18 @@ When a star is in a state of hydrostatic equilibrium, these inward and outward f
 This equilibrium state for a relativistic, isotropic, spherically symmetric, self-gravitating object is described by the Tolman-Oppenheimer-Volkoff equation:
 
 $$
-\frac{dP}{dr}
-=
--\frac{G}{r^{2}} \frac{M(r)}{c^{2}} \varrho (r)
-\left( 1 + \frac{P}{\varrho (r) c^{2}} \right)
-\left( 1 + \frac{4 \pi r^{3} P}{M(r) c^{2}} \right)
-\left( 1 - \frac{2 G M(r)}{r c^{2}} \right)^{-1} \, .
+    \frac{dP}{dr}
+    =
+    -\frac{G}{r^{2}} \frac{M(r)}{c^{2}} \varrho (r)
+    \left( 1 + \frac{P}{\varrho (r) c^{2}} \right)
+    \left( 1 + \frac{4 \pi r^{3} P}{M(r) c^{2}} \right)
+    \left( 1 - \frac{2 G M(r)}{r c^{2}} \right)^{-1} \, .
 $$
 
 In the Newtonian limit, this equation reduces to the classical form of the hydrostatic equilibrium equation:
 
 $$
-\frac{dP}{dr} = -\frac{G M(r)}{r^{2}} \varrho(r) \, ,
+    \frac{dP}{dr} = -\frac{G M(r)}{r^{2}} \varrho(r) \, ,
 $$
 
 where $dP/dr$ is the pressure gradient, $G$ is the gravitational constant, $M(r)$ is the mass within a given radius $r$ and $\varrho$ is the density. This equation states that the change in pressure with respect to distance (i.e., the pressure gradient) is balanced by the gravitational force.
