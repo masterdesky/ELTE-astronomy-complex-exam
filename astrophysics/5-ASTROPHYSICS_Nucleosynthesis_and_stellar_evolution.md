@@ -11,18 +11,18 @@ $$
     d^{+} + e^{+} + \nu_{e}
 $$
 
-2. The deuterium nucleus then combines with another proton to form a $\operatorname{He}^{3}$ nucleus:
+2. The deuterium nucleus then combines with another proton to form a $\ce{^{3}\mathrm{He}}$ nucleus:
 $$
     d^{+} + p^{+}
     \to
-    \operatorname{He}^{3} + γ
+    \ce{^{3}\mathrm{He}} + γ
 $$
 
-3. Finally, two $\operatorname{He}^{3}$ nuclei combine to form $\operatorname{He}^{4}$, releasing two protons in the process:
+3. Finally, two $\ce{^{3}\mathrm{He}}$ nuclei combine to form $\ce{^{4}\mathrm{He}}$, releasing two protons in the process:
 $$
-    \operatorname{He}^{3} + \operatorname{He}^{3}
+    \ce{^{3}\mathrm{He}} + \ce{^{3}\mathrm{He}}
     \to
-    \operatorname{He}^{4} + p^{+} + p^{+}
+    \ce{^{4}\mathrm{He}} + p^{+} + p^{+}
 $$
 
 In this process, some mass is converted into energy, as described by Einstein's famous equation $E=mc^{2}$. The energy released in the form of gamma-ray photons ($\gamma$) eventually reaches the surface of the star and is emitted as light.
@@ -32,34 +32,34 @@ The CNO (carbon-nitrogen-oxygen) cycle is a competing nuclear fusion process tha
 
 The basic CNO cycle involves these reactions:
 
-1. $\operatorname{C}^{12}$ captures a proton to form $\operatorname{N}^{13}$:
+1. $\ce{^{12}\mathrm{C}}$ captures a proton to form $\ce{^{13}\mathrm{N}}$:
 $$
-    \operatorname{C}^{12} + p^{+} \to \operatorname{N}^{13}
-$$
-
-2. $\operatorname{N}^{13}$ undergoes beta decay to form $\operatorname{C}^{13}$:
-$$
-    \operatorname{N}^{13} \to \operatorname{C}^{13} + e^{+} + \nu_{e}
+    \ce{^{12}\mathrm{C}} + p^{+} \to \ce{^{13}\mathrm{N}}
 $$
 
-3. $\operatorname{C}^{13}$ captures a proton to form $\operatorname{N}^{14}$:
+2. $\ce{^{13}\mathrm{N}}$ undergoes beta decay to form $\ce{^{13}\mathrm{C}}$:
 $$
-    \operatorname{C}^{13} + p^{+} \to \operatorname{N}^{14}
-$$
-
-4. $\operatorname{N}^{14}$ captures a proton to form $\operatorname{C}^{15}$:
-$$
-    \operatorname{N}^{14} + p^{+} \to \operatorname{C}^{15}
+    \ce{^{13}\mathrm{N}} \to \ce{^{13}\mathrm{C}} + e^{+} + \nu_{e}
 $$
 
-5. $\operatorname{C}^{15}$ undergoes beta decay to form $\operatorname{N}^{15}$:
+3. $\ce{^{13}\mathrm{C}}$ captures a proton to form $\ce{^{14}\mathrm{N}}$:
 $$
-    \operatorname{C}^{15} \to \operatorname{N}^{15} + e^{+} + \nu_{e}
+    \ce{^{13}\mathrm{C}} + p^{+} \to \ce{^{14}\mathrm{N}}
 $$
 
-6. $\operatorname{N}^{15}$ captures a proton and releases a helium-4 nucleus, regenerating the initial $\operatorname{C}^{12}$ nucleus:
+4. $\ce{^{14}\mathrm{N}}$ captures a proton to form $\ce{^{15}\mathrm{C}}$:
 $$
-    \operatorname{N}^{15} + p^{+} \to \operatorname{C}^{12} + \operatorname{He}^{4}
+    \ce{^{14}\mathrm{N}} + p^{+} \to \ce{^{15}\mathrm{C}}
+$$
+
+5. $\ce{^{15}\mathrm{C}}$ undergoes beta decay to form $\ce{^{15}\mathrm{N}}$:
+$$
+    \ce{^{15}\mathrm{C}} \to \ce{^{15}\mathrm{N}} + e^{+} + \nu_{e}
+$$
+
+6. $\ce{^{15}\mathrm{N}}$ captures a proton and releases a helium-4 nucleus, regenerating the initial $\ce{^{12}\mathrm{C}}$ nucleus:
+$$
+    \ce{^{15}\mathrm{N}} + p^{+} \to \ce{^{12}\mathrm{C}} + \ce{^{4}\mathrm{He}}
 $$
 
 The net effect of the CNO cycle, like the p-p chain, is to convert hydrogen into helium, with a release of energy.
@@ -67,7 +67,7 @@ The net effect of the CNO cycle, like the p-p chain, is to convert hydrogen into
 ## 5.3. Supernova nucleosynthesis and neutron star mergers
 In the lifetime of a star, there are stages beyond the fusion of hydrogen into helium. As stars exhaust their hydrogen fuel, they begin to fuse helium and other heavier elements. In stars heavier than $8 M_{\odot}$, this process continues up to the production of iron in their cores.
 
-Fusion reactions in stars produce energy due to the nature of nuclear binding energy, which is the energy required to keep protons and neutrons together in an atomic nucleus. The binding energy per nucleon is not constant across different elements, but instead follows a curve that reaches a peak at around iron and nickel (at $\operatorname{Fe}^{56}$ to be precise).
+Fusion reactions in stars produce energy due to the nature of nuclear binding energy, which is the energy required to keep protons and neutrons together in an atomic nucleus. The binding energy per nucleon is not constant across different elements, but instead follows a curve that reaches a peak at around iron and nickel (at $\ce{^{56}\mathrm{Fe}}$ to be precise).
 
 In elements lighter than that, the fusion of smaller atomic nuclei results in a nucleus closer to iron on the binding energy curve. This new nucleus has a higher binding energy per nucleon, meaning it is more tightly bound and lower in energy. This difference in energy is released during the fusion process, which is what powers the star.
 

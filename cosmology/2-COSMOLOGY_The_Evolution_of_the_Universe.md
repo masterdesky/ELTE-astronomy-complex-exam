@@ -46,15 +46,12 @@ In our universe, the total energy density appears to be very close to the critic
 ## 2.2. The LCDM cosmological model
 The $\Lambda$CDM (Lambda-Cold Dark Matter) parameter model is currently the most accepted cosmological model that describes the evolution of the universe. It's characterized by a cosmological constant, represented by Lambda ($\Lambda$), and Cold Dark Matter (CDM). It is also consistent with an enormous number of observations of fundamental physical phenomena in cosmology, such as the CMB or the large-scale structure of the universe.
 
-The model in its present form is based on the following key assumptions:
-
+The simple $\Lambda$CDM model in its present form is based on the following key assumptions:
 1. **Homogeneity and isotropy of the universe (the Cosmological Principle)**: The universe, on large scales, is the same everywhere (homogeneity) and the same in all directions (isotropy).
-
 2. **Existence of the Cold Dark Matter**: This is matter that does not interact with electromagnetic radiation (i.e., light), but whose presence can be inferred from its gravitational effects on visible matter. In this model, it is assumed to be "cold," meaning it was non-relativistic at the time of matter-radiation equality.
-
 3. **Existence of Dark Energy (Cosmological Constant $\Lambda$)**: This is a form of energy that permeates all of space and exerts a negative pressure, leading to an acceleration of the expansion of the universe. It is represented by the cosmological constant $\Lambda$ in Einstein's field equations.
 
-Additionally, this list can be extended to include inflation, baryogenesis, and other phenomena. The Friedmann equations, when combined with these (and some extra) assumptions, lead to a model of a universe that began with a Big Bang, followed by an inflationary epoch, then radiation domination, matter domination, and now dark energy domination.
+Additionally, this list can be extended to include inflation, baryogenesis, and other phenomena. The Friedmann equations, when combined with these (and some additional) assumptions, lead to a model of a universe that began with a Big Bang, followed by an inflationary epoch, then radiation domination, matter domination, and now dark energy domination.
 
 Being a so-called "parameter model," the $\Lambda$CDM model is characterized by a set of parameters that describe the universe. There are 6 "independet" parameters, which are:
 1. Physical baryon density parameter $\Omega_b h^2$ *(with a current value of $0.02237 \pm 0.00015$)*.
@@ -64,7 +61,7 @@ Being a so-called "parameter model," the $\Lambda$CDM model is characterized by 
 5. Curvature fluctuation amplitude $A_s$ *(with a current value of $2.100 \pm 0.030  \times 10^{-9}$)*.
 6. Reionization optical depth $\tau$ *(with a current value of $0.0561 \pm 0.0071$)*.
 
-These parameters can be determined from observations such as the cosmic microwave background (CMB) and large-scale structure surveys. Current observations suggest a flat universe ($\Omega_k=0$), dominated by dark energy ($\Omega_{\Lambda} = 0.6847 \pm 0.0073$), with the remainder being dark matter ($\Omega_c = 0.260 \pm 0.011$) and baryonic matter ($\Omega_b = 0.0486 \pm 0.0005$).
+These parameters can be determined from observations such as the cosmic microwave background (CMB) and large-scale structure surveys. Current observations suggest a flat universe ($\Omega_k = 0$), dominated by dark energy ($\Omega_{\Lambda} = 0.6847 \pm 0.0073$), with the remainder being dark matter ($\Omega_c = 0.260 \pm 0.011$) and baryonic matter ($\Omega_b = 0.0486 \pm 0.0005$).
 
 Despite its success, the $\Lambda$CDM model also has several unresolved questions, issues and challenges, such as the nature of dark matter and dark energy, the cosmological constant problem, and the horizon and flatness problems, among others. However, as of 2023, it remains the most successful and widely accepted model we have for the evolution of the universe.
 
@@ -77,6 +74,8 @@ Key characteristics of dark matter include:
 - **"Cold"**: Dark matter is assumed to be "cold", which means it was non-relativistic at the time of matter-radiation equality. This characteristic leads to specific predictions for the formation of large-scale structure.
 - **Dissipationless**: Dark matter is thought to be dissipationless, meaning it does not lose energy through emission mechanisms.
 - **Collisionless**: Dark matter is thought to be collisionless, meaning it does not interact with other particles through the electromagnetic force, only through gravity and maybe the weak force.
+- **Gravitational Lensing**: Dark matter's presence is inferred from its gravitational effects, such as gravitational lensing, where the path of light is bent when passing through or near a massive object. Dark matter's distribution in galaxies and clusters of galaxies is often studied using gravitational lensing effects.
+- **Galaxy Rotation Curves**: Observations of the rotation curves of galaxies provide strong evidence for dark matter. The observed flat rotation curves, where the orbital speed of stars and gas do not decrease with distance from the galactic center, imply the presence of a large amount of unseen matter.
 
 ### 2.3.2. Dark energy
 Dark energy is a hypothetical form of energy that permeates all of space and tends to increase the rate of expansion of the universe. Its existence has been inferred from the observation of the accelerating expansion of the universe.
@@ -85,10 +84,17 @@ Key characteristics of dark energy include:
 - **Uniformly Distributed**: Dark energy is thought to be homogeneously distributed in space, not clustering like matter does.
 - **Negative Pressure**: Dark energy is characterized by a strong negative pressure. This negative pressure is what leads to the acceleration of the universe's expansion.
 - **Dominant Component of the Universe**: Current observations suggest that about 70% of the energy density of the universe is in the form of dark energy.
-- **Cosmological Constant $\Lambda$**: In the context of the ΛCDM model, dark energy is often associated with the cosmological constant in Einstein's field equations. However, other models of dark energy also exist, including quintessence and phantom energy models.
-- **Equation of State**: The equation of state of dark energy is usually written in the form $p = w\rho c^2$, where $p$ is the pressure, $\rho$ is the energy density, $c$ is the speed of light, and $w$ is the equation of state parameter. For the cosmological constant, $w=-1$. If $w<-1$, it is referred to as phantom energy.
+- **Cosmological Constant $\Lambda$**: In the context of the $\Lambda$CDM model, dark energy is often associated with the cosmological constant in Einstein's field equations. However, other models of dark energy also exist, including quintessence and phantom energy models.
+- **Equation of State**: The equation of state of dark energy is usually written in the form $p = w\varrho c^2$, where $p$ is the pressure, $\varrho$ is the energy density, $c$ is the speed of light, and $w$ is the equation of state parameter. For the cosmological constant as a constituent of the Unverse, $w = -1$.
 
 The nature of dark energy remains one of the greatest mysteries in science. Understanding its properties and effects on the universe is a key goal in cosmology.
 
 ## 2.4. Observational pillars of the Big Bang theory
+1. **Redshift of galaxies**: Observations show that galaxies are moving away from us, with those further away moving faster. This is known as Hubble's law, and it suggests that the universe is expanding. This idea is a cornerstone of the Big Bang theory.
+2. **Cosmic Microwave Background Radiation**: The CMB is radiation that fills all space in the observable universe. It's considered a remnant from the hot, dense state of the early universe, and its discovery was a landmark piece of evidence for the Big Bang theory.
+3. **Abundance of light elements**: The relative amounts of light elements (hydrogen, helium, and lithium) in the universe match predictions made by the Big Bang theory. According to this theory, these elements were created in the first few minutes after the Big Bang during a period known as "big bang nucleosynthesis".
+4. **Large-Scale Structure of the universe**: The large-scale structure of the universe, including the distribution of galaxies and galaxy clusters, aligns with the expectations of the Big Bang model, which predicts that matter should clump together under the influence of gravity over time. Although on small scales (up to $200 \operatorname{Mpc}$) there are complex structures violating both homogeneity and isotropy, on larger scales the universe appears to satisfy the cosmological principle. (Although this arises another problem, referred to as the "horizon problem".)
+5. **Time evolution of galaxy morphologies**: Observations show that galaxies evolved over time, with younger galaxies appearing different from older ones. This is consistent with an evolving universe as suggested by the Big Bang theory.
+6. **Age of the oldest known objects**: The oldest known objects in the universe, including globular clusters and white dwarf stars, have ages that are consistent with the universe's estimated age of approximately 13.8 billion years, as predicted by the Big Bang theory.
+
 ## 2.5. The future of the universe
