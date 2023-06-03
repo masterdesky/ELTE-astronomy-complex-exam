@@ -1,5 +1,5 @@
 # 1. Fundamentals of Relativistic Cosmology
-The Einstein Field Equations (EFE) are a set of 10 non-linear partial differential equations that describe the gravitational interaction of matter in the presence of spacetime curvature. The field equations are derived from the Einstein-Hilbert action, which describes the dynamics of the gravitational field by means of the metric tensor $g_{\mu\nu}$, which is a function of the coordinates $x^\mu$ of the manifold. The action is given by
+The Einstein Field Equations (EFE) are a set of 10 non-linear partial differential equations that describe the gravitational interaction of matter in the presence of spacetime curvature. The field equations are derived from the Einstein-Hilbert action, which describes the dynamics of the gravitational field by means of the metric tensor $g_{\alpha\beta}$, which is a function of the coordinates $x^\mu$ of the manifold. The action is given by
 
 $$
     S
@@ -13,32 +13,32 @@ $$
 where $R$ is the Ricci curvature scalar, $\mathcal{L}_{M}$ is the action of the matter fields, and $\kappa = 8\pi G / c^{4}$. The Einstein Field Equations are obtained by varying the action with respect to the metric tensor, which yields
 
 $$
-    R_{\mu\nu}
+    R_{\alpha\beta}
     -
-    \frac{1}{2} R g_{\mu\nu} \left( + \Lambda g_{\mu\nu} \right)
+    \frac{1}{2} R g_{\alpha\beta} \left( + \Lambda g_{\alpha\beta} \right)
     =
-    \kappa T_{\mu\nu}
+    \kappa T_{\alpha\beta}
     \equiv
-    \frac{8\pi G}{c^4} T_{\mu\nu} \, ,
+    \frac{8\pi G}{c^4} T_{\alpha\beta} \, ,
 $$
 
-where $G_{\mu\nu}$ is the Einstein tensor, $R_{\mu\nu}$ is the Ricci tensor, and $T_{\mu\nu}$ is the stress-energy tensor. The cosmological constant $\Lambda$ is a free parameter that was originally introduced by Einstein to allow for a static universe. However, the discovery of the expansion of the universe by Hubble in 1929 rendered it unnecessary. The cosmological constant was later revived by the discovery of the accelerated expansion of the universe in 1998, which was attributed to a non-zero cosmological constant.
+where $G_{\alpha\beta}$ is the Einstein tensor, $R_{\alpha\beta}$ is the Ricci tensor, and $T_{\alpha\beta}$ is the stress-energy tensor. The cosmological constant $\Lambda$ is a free parameter that was originally introduced by Einstein to allow for a static universe. However, the discovery of the expansion of the universe by Hubble in 1929 rendered it unnecessary. The cosmological constant was later revived by the discovery of the accelerated expansion of the universe in 1998, which was attributed to a non-zero cosmological constant.
 
 The stress-energy tensor appearing in the EFE is given by definition as
 
 $$
-    T_{\mu\nu}
+    T_{\alpha\beta}
     :=
-    \frac{-2}{\sqrt{-g}} \frac{\delta (\sqrt{-g} \mathcal{L}_{M})}{\delta g^{\mu\nu}}
+    \frac{-2}{\sqrt{-g}} \frac{\delta (\sqrt{-g} \mathcal{L}_{M})}{\delta g^{\alpha\beta}}
     =
-    -2 \frac{\delta \mathcal{L}_{M}}{\delta g^{\mu\nu}}
+    -2 \frac{\delta \mathcal{L}_{M}}{\delta g^{\alpha\beta}}
     +
-    g_{\mu\nu} \mathcal{L}_{M} \, .
+    g_{\alpha\beta} \mathcal{L}_{M} \, .
 $$
 
 Solutions to the EFE provide the mathematical descriptions of physical spacetime configurations, or the so-called *metrics* of spacetimes. These "solutions" are in fact models of the universe (or a part of it) that satisfy the equations under certain assumptions.
 
-At a basic level, a solution to the EFE is a metric tensor, $g_{\mu\nu}$, which defines a spacetime geometry that fulfills the field equations given a particular distribution of matter and energy, represented by the stress-energy tensor $T_{\mu\nu}$. In other words, these solutions describe the curvature of spacetime as a consequence of the distribution of matter and energy within it, in accordance with the principles of General Relativity.
+At a basic level, a solution to the EFE is a metric tensor, $g_{\alpha\beta}$, which defines a spacetime geometry that fulfills the field equations given a particular distribution of matter and energy, represented by the stress-energy tensor $T_{\alpha\beta}$. In other words, these solutions describe the curvature of spacetime as a consequence of the distribution of matter and energy within it, in accordance with the principles of General Relativity.
 
 The complexity and nonlinearity of the EFE often necessitate simplifying assumptions to make the equations tractable. These assumptions, though simplifications, should still reflect the physical reality we observe. For instance, the cosmological principle, which posits that the universe is homogeneous and isotropic on large scales, provides a fundamental basis for many cosmological models.
 

@@ -33,7 +33,7 @@ $$
     -3 H \left( \varrho_{i} + w_{i} p_{i} \right) \, ,
 $$
 
-where $H$ is the Hubble parameter, $\varrho_{i}$ is the density, $w_{i}$ is the equation of state parameter, and $p_{i}$ is the pressure of the $i$-th component. We can get the following dependence for $\rho_{i}$ as
+where $H$ is the Hubble parameter, $\varrho_{i}$ is the density, $w_{i}$ is the equation of state parameter, and $p_{i}$ is the pressure of the $i$-th component. We can get the following dependence for $\varrho_{i}$ as
 
 $$
     \varrho_{i} \propto a^{-3 (1 + w_{i})} \, .

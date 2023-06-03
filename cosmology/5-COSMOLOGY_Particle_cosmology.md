@@ -45,7 +45,7 @@ BBN began about $10$ - $20$ seconds after the Big Bang, when the universe had co
 The abundances of light elements predicted by BBN theory match the observed abundances remarkably well. This agreement is one of the major pieces of evidence for the Big Bang model.
 
 ## 5.4. Dark matter
-*See also [chapter 2](2-COSMOLOGY_The_Evolution_of_the_Universe.md) for more info and [chapter 1](1-COSMOLOGY_Fundamentals_of_Relativistic_Cosmology.md) for relevant equations.*
+*See also [chapter 2](./2-COSMOLOGY_The_Evolution_of_the_Universe.md) for more info and [chapter 1](./1-COSMOLOGY_Fundamentals_of_Relativistic_Cosmology.md) for relevant equations.*
 
 Dark matter is a form of matter that does not interact with electromagnetic radiation, making it invisible and detectable only through its gravitational effects. It is one of the major components of the universe, making up about 27% of its total energy density, according to current estimates.
 
@@ -56,7 +56,7 @@ Dark matter also plays a crucial role in the large-scale structure of the univer
 While the nature of dark matter is still unknown, the leading candidates are new types of subatomic particles that interact weakly with ordinary matter, known as WIMPs (Weakly Interacting Massive Particles), and axions. Direct and indirect detection experiments are currently underway to search for these particles.
 
 ## 5.5. Dark energy
-*See also [chapter 2](2-COSMOLOGY_The_Evolution_of_the_Universe.md) for more info and [chapter 1](1-COSMOLOGY_Fundamentals_of_Relativistic_Cosmology.md) for relevant equations.*
+*See also [chapter 2](./2-COSMOLOGY_The_Evolution_of_the_Universe.md) for more info and [chapter 1](./1-COSMOLOGY_Fundamentals_of_Relativistic_Cosmology.md) for relevant equations.*
 
 Dark energy is a hypothetical form of energy that permeates all of space and tends to accelerate the expansion of the universe. It is the leading explanation for observations since the 1990s that the universe appears to be expanding at an accelerating rate. As of now, it is estimated to constitute approximately 68% of the total energy in the observable universe.
 
@@ -123,6 +123,6 @@ $$
     =
     a(t) \int_{0}^{t} \frac{c \, \operatorname{d}t'}{a(t')}
 $$
-It's present ($t = t_{0}$) value is estimated to be about $46.9$ billion light-years.
+Its present ($t = t_{0}$) value is estimated to be about $46.9$ billion light-years.
 
 The particle horizon has important implications for the observable universe and the cosmic microwave background. Regions of the universe that are separated by distances greater than the particle horizon are not in causal contact, meaning that one region cannot have influenced the other. This is known as the horizon problem, which is one of the motivations for cosmic inflation.
