@@ -54,16 +54,16 @@ Each of these layers contributes to the formation of the star's spectra. The pho
 The pattern of absorption lines is like a fingerprint for each star. It depends on the star's chemical composition, temperature, and pressure, and it allows astronomers to determine these properties. For instance, hydrogen lines are prominent in cooler stars, while lines from ionized atoms appear in hotter stars.
 
 ### 3.3.3. Energy Transport: Convection and Radiation
-The transfer of energy from the hot core to the cooler outer layers of a star occurs mainly through radiation and convection. In the radiative zone, which is the layer below the photosphere in the Sun, energy is transferred via the absorption and re-emission of photons. However, as these photons move outward and the temperature decreases, convection becomes a more efficient mode of energy transport.
+The transfer of energy from the hot core to the cooler outer layers of a star occurs mainly through radiation and convection. The layers are separated by the temperature gradient, which determines the dominant mode of energy transport. Deep inside the star, where the temperature is high, the gas is ionized and opaque to radiation, so energy is only able to escape through convection. As the temperature decreases with increasing distance from the core, the gas becomes neutral and transparent to radiation and the mean free path of photons increases, allowing energy to be transported by radiation.
 
-In the convective zone, the gas conducts heat and rises to the surface in convective currents, cools off at the surface, and sinks back down to pick up more heat, similar to the boiling of water in a pot. In the Sun, the convective zone extends from about 70% of the solar radius to the photosphere.
+In the radiative zone, which is the layer below the photosphere in the Sun, energy is transferred via the absorption and re-emission of photons. However, as these photons move outward and the temperature decreases, convection becomes a more efficient mode of energy transport.
+
+In the convective zone, the gas conducts heat and rises to the surface in convective currents, cools off at the surface, and sinks back down to pick up more heat, similar to the boiling of water in a pot. In the Sun, the convective zone extends from about $70\%$ of the solar radius to the photosphere.
 
 Different stars have different zones depending on their mass and composition, affecting their temperature gradients and hence the dominant mode of energy transport. These differences contribute to the observed variety in stellar properties and spectral classifications.
 
 ## 3.4. Stellar models and Hertzsprung-Russell diagram
-The fundamental physical principles dictating stellar structure are embodied in stellar structure equations, a set of differential equations. These equations (mass conservation, hydrostatic equilibrium, energy conservation, and energy transport), combined with an equation of state and opacities, describe how the pressure, temperature, mass, and luminosity of a star change with radius, providing a complete description of the star's structure.
-
-These principles and equations together form the foundation of our understanding of stars, their structures, their lifetimes, and their evolution.
+The fundamental physical principles dictating stellar structure can be easily embodied in a set of differential equations, describing hydrostatic equilibrium, mass continuity, energy conservation, and energy transport. These equations combined with appropriate boundary conditions, as well as the equation of state, form a stellar model that provides a complete description of a star's structure. These principles and equations together form the foundation of our understanding of stars, their structures, their lifetimes, and their evolution.
 
 ### 3.4.1. Hertzsprung-Russell Diagram
 The Hertzsprung-Russell diagram is a pivotal tool in understanding stellar evolution. It is a scatter graph of stars, where each star is represented as a dot. The diagram is named after the astronomers Ejnar Hertzsprung and Henry Norris Russell who independently discovered the relationship between the luminosity of a star and its temperature, forming the basis for the diagram.
@@ -73,8 +73,8 @@ On the vertical axis of an H-R diagram, we have the luminosity or the absolute m
 Most stars, including the Sun, lie within a region called the "main sequence," which runs diagonally across the diagram. These are stars in the stable phase of their life, where they are burning hydrogen into helium in their cores.
 
 ### 3.4.2. Stellar Models
-Stellar models, developed through the solution of the equations of stellar structure, are crucial in interpreting the H-R diagram. The models provide the theoretical underpinning to understand the relationship between luminosity, temperature, and the life stages of stars reflected in the diagram.
+Stellar models provide the theoretical underpinning to understand the relationship between luminosity, temperature, and the life stages of stars reflected in the H-R diagram. Stellar models differ from each other in their assumptions about the inner workings of stars, such as the equation of state, the opacity, and the various boundary conditions.
 
-Using these models, astronomers have been able to map out stellar evolutionary tracks - the path a star takes on the H-R diagram as it evolves. For example, after a star exhausts its core hydrogen fuel, it moves off the main sequence to become a red giant, which is reflected in a shift to the upper right of the H-R diagram.
+By discovering well-behaving stellar models, astronomers have been able to map out stellar evolutionary tracks - the path a star takes on the H-R diagram as it evolves. For example, after a star exhausts its core hydrogen fuel, it moves off the main sequence to become a red giant, which is reflected in a shift to the upper right of the H-R diagram.
 
 These models also predict how a star's radius, surface temperature, and luminosity will change over time. By observing a star's position on the H-R diagram and comparing it to these models, we can infer properties such as the star's age, mass, and stage of evolution.
