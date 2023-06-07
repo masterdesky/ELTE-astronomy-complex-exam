@@ -94,6 +94,14 @@ $$
 
 During the inflationary period, the potential energy $V(\phi)$ dominates over the kinetic energy $\frac{1}{2} \dot{\phi}^{2}$. This leads to a large positive energy density $\varrho$ and a large negative pressure $p$. According to the Friedmann equations, this results in a rapid exponential expansion of the universe, which is the defining feature of inflation.
 
+Inserting these equations for the energy density and pressure into the continuity equation $\dot{\varrho} + 3H(\varrho + p) = 0$ yields us the already familiar equation of motion of the scalar field $\phi$:
+
+$$
+    \ddot{\phi} + 3H \dot{\phi} + \frac{\partial V(\phi)}{\partial \phi}
+    =
+    0 \, .
+$$
+
 It's also worth noting that the equation of state for a single-component scalar field is given by $w = p/\varrho$, where $c = 1$ (as it was discussed in [chapter 2](./2-COSMOLOGY_The_Evolution_of_the_Universe.md)). During inflation, when the potential energy dominates, the equation of state is approximately $-1$, which corresponds to a vacuum-like energy density. This is another way of seeing why inflation leads to a rapid expansion: a vacuum-like equation of state causes the universe to expand as if it were empty, even though it is filled with the energy of the inflaton field.
 
 ## 7.4. Inflationary potential inspired by GUT spontaneous symmetry breaking

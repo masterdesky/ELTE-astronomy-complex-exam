@@ -75,7 +75,15 @@ $$
     \frac{1}{V} \int \mathrm{d}^{3}\mathbf{x} \delta(\mathbf{x}) \delta(\mathbf{x} + r)
 $$
 
-Here, $\delta(\mathbf{x})$ is the matter overdensity at a point $\mathbf{x}$, and the brackets denote an average over all points. This equation measures the correlation between density fluctuations at two points separated by a distance $\mathbf{r} = \mathbf{x} - \mathbf{x'}$. From this definition, we can relate the correlation function to the power spectrum using the Fourier transform:
+This equation measures the correlation between density fluctuations at two points separated by a distance $\mathbf{r} = \mathbf{x} - \mathbf{x'}$. Here, $\delta(\mathbf{x})$ is the matter overdensity at a point $\mathbf{x}$:
+
+$$
+    \delta(\mathbf{x})
+    =
+    \frac{\varrho(\mathbf{x}) - \bar{\varrho}}{\bar{\varrho}} \, .
+$$
+
+From this definition, we can relate the correlation function to the power spectrum using the Fourier transform:
 
 $$
     \xi(r)
