@@ -3,45 +3,127 @@
 ## 2.1. Single and multicomponent solutions of Friedmann equations
 The Friedmann equations are the set of equations that describe the expansion of the universe in the context of general relativity. They are derived from Einstein's field equations and assume a homogeneous and isotropic universe, often described as the cosmological principle. They were explained in detail in the [previous chapter](1-COSMOLOGY_The_Big_Bang_Theory.md).
 
-### 2.1.1. Single component solutions
+### 2.1.1. Continuity equation
+The energy-momentum tensor for an isotropic and homogeneous universe assumes a diagonal stress-energy tensor:
+
+$$
+    T_{\alpha\beta}
+    =
+    \mathrm{diag} \left( \varrho, -\frac{p}{c^2}, -\frac{p}{c^2}, -\frac{p}{c^2} \right) \, ,
+$$
+
+where $\varrho$ is the total energy density of the universe, and $p$ is the pressure of the matter-energy content of the universe. This obeys a conservation equation that auomatically yields the continuity equation
+
+$$
+    \dot{\varrho}
+    =
+    -3 \frac{\dot{a}}{a} \left( \varrho + \frac{p}{c^2} \right) \, ,
+$$
+
+where, $H \equiv  \dot{a} / a$, is the Hubble parameter.
+
+### 2.1.2. Single component solutions
 In the simplest form, the Friedmann equations describe a universe filled with a single component of matter or energy. For instance, a universe filled with only matter (either baryonic or dark matter), or a universe filled with only radiation. Solutions utilizing this constraint are sometimes referred to as a "one-fluid" solutions too. This solution employs a perfect fluid model with the equation of state
 
 $$
     p = w \varrho c^2 \, ,
 $$
 
-where $p$ is the pressure, $\varrho$ is the density, $c$ is the speed of light, and $w$ is the equation of state parameter. We can express the scale parameter $a(t)$ as a function of time $t$ as
+where $p$ is the pressure, $\varrho$ is the density, $c$ is the speed of light, and $w$ is the equation of state parameter. Combining it with the continuity equation above, we get the following dependence for $\varrho$ as
 
 $$
-    a(t) = a_0 t^{\frac{2}{3 (w + 1)}} \, ,
+    \varrho \propto a^{-3 (1 + w)} \, .
 $$
-
-where $a_0$ is the scale factor at the present time.
 
 The solutions of the Friedmann equations for a matter-dominated universe (where $w=0$) in this case indicate that the scale factor $a(t)$ evolves as $a \propto t^{2/3}$, meaning the universe expands but the rate of expansion decreases over time. For a universe filled with radiation ($w=1/3$), the scale factor evolves as $a \propto t^{1/2}$, indicating a universe that is also expanding but at a decelerating rate.
 
-### 2.1.2. Multicomponent solutions
+### 2.1.3. Multicomponent solutions
 In a more realistic universe, there are multiple components, each with different equations of state. The Friedmann equations can be solved for such a multicomponent universe as well, though the solutions are more complex. This is important because in reality, our universe is filled with a mix of matter, radiation, and dark energy, each dominating at different stages of the universe's evolution.
 
 For example, in the early universe, radiation dominated, and therefore the universe expanded according to the solution for a radiation-filled universe. As the universe cooled and expanded, matter became dominant, and the expansion followed the matter-dominated solution. Today, dark energy appears to be the dominant component, leading to an accelerating expansion of the universe.
 
-Similarly to the single component solutions we can describe the non-iteracting fluids in our universe with the equation of state
+In this solution we assume that these components do not interact with each other, meaning that the energy density of each component is conserved separately. Similarly to the single component solutions we can describe the non-iteracting fluids in our universe with the same equation of state as before for each component:
 
 $$
-    \dot{\varrho_{i}}
-    =
-    -3 H \left( \varrho_{i} + w_{i} p_{i} \right) \, ,
+    p_{i} = w_{i} \varrho_{i} c^2 \, .
 $$
 
-where $H$ is the Hubble parameter, $\varrho_{i}$ is the density, $w_{i}$ is the equation of state parameter, and $p_{i}$ is the pressure of the $i$-th component. We can get the following dependence for $\varrho_{i}$ as
+We can also get a similar dependence for the energy density of each component as before:
 
 $$
     \varrho_{i} \propto a^{-3 (1 + w_{i})} \, .
 $$
 
-From these we can then construct arbitrary linear combinations of the components to get the total density of the universe. Based on our most recent knowledge about the universe, we can construct one such combination as seen in the previous chapter.
+The total energy density and pressure of this mixture of components is then given by
 
-In our universe, the total energy density appears to be very close to the critical density (also discussed in the previous chapter), suggesting a flat universe that will continue to expand indefinitely, especially due to the influence of dark energy.
+$$
+    \varrho_{\text{tot}} = \sum_{i} \varrho_{i} \, ,
+    \quad \quad
+    p = \sum_{i} p_{i} \, .
+$$
+
+From these we can then construct arbitrary linear combinations of the components to get the total density of the universe. In our universe, the total energy density appears to be very close to the critical density (also discussed in the previous chapter), suggesting a flat universe that will continue to expand indefinitely, especially due to the influence of dark energy.
+
+### 2.1.4. The Friedmann equations
+As it was described in the previous chapter, the Friedmann equations are the set of equations that describe the expansion of the universe in the context of general relativity. They are derived from Einstein's field equations and assume a homogeneous and isotropic universe, often described as the cosmological principle. For a multicompoment universe, the Friedmann equations are given by
+
+$$
+    H^2
+    \equiv
+    \left( \frac{\dot{a}}{a} \right)^2
+    =
+    \frac{8\pi G}{3} \varrho_{\text{tot}}
+    -
+    \frac{kc^2}{a^2}
+    +
+    \frac{\Lambda c^2}{3}
+    \, ,
+$$
+
+$$
+    \dot{H} + H^2
+    =
+    \frac{\ddot{a}}{a}
+    =
+    -\frac{4\pi G}{3} \left( \varrho_{\text{tot}} + \frac{3p}{c^2} \right)
+    +
+    \frac{\Lambda c^2}{3}
+    \, ,
+$$
+
+where $\varrho_{\text{tot}} = \sum_{i} \varrho_{i}$ is aggregate energy density of all fluid components in the universe. If we apply the widely utilized simplification for the energy density and pressure as
+
+$$
+    \varrho = \varrho - \frac{\Lambda c^{2}}{8 \pi G} \, ,
+    \quad \quad
+    p = p + \frac{\Lambda c^{4}}{8 \pi G} \, ,
+$$
+
+then the Friedmann equations can be written in a more compact form as
+
+$$
+    H^2
+    \equiv
+    \left( \frac{\dot{a}}{a} \right)^2
+    =
+    \frac{8\pi G}{3} \varrho
+    -
+    \frac{kc^2}{a^2}
+    \, ,
+$$
+
+$$
+    \dot{H} + H^2
+    =
+    \frac{\ddot{a}}{a}
+    =
+    -\frac{4\pi G}{3} \left( \varrho + \frac{3p}{c^2} \right)
+    \, .
+$$
+
+This means that the cosmological constant can be interpreted as another consituent of the universe with an equation of state $w = -1$ and a constant energy density $\varrho_{\Lambda} = \Lambda c^{2} / 8 \pi G$.
+
+In this case the continuity equation states that the density of the cosmological constant is constant in time. This is why it's generally identified as the vacuum energy[^1].
 
 ## 2.2. The LCDM cosmological model
 The $\Lambda$CDM (Lambda-Cold Dark Matter) parameter model is currently the most accepted cosmological model that describes the evolution of the universe. It's characterized by a cosmological constant, represented by Lambda ($\Lambda$), and Cold Dark Matter (CDM). It is also consistent with an enormous number of observations of fundamental physical phenomena in cosmology, such as the CMB or the large-scale structure of the universe.
@@ -93,8 +175,11 @@ The nature of dark energy remains one of the greatest mysteries in science. Unde
 1. **Redshift of galaxies**: Observations show that galaxies are moving away from us, with those further away moving faster. This is known as Hubble's law, and it suggests that the universe is expanding. This idea is a cornerstone of the Big Bang theory.
 2. **Cosmic Microwave Background Radiation**: The CMB is radiation that fills all space in the observable universe. It's considered a remnant from the hot, dense state of the early universe, and its discovery was a landmark piece of evidence for the Big Bang theory.
 3. **Abundance of light elements**: The relative amounts of light elements (hydrogen, helium, and lithium) in the universe match predictions made by the Big Bang theory. According to this theory, these elements were created in the first few minutes after the Big Bang during a period known as "big bang nucleosynthesis".
-4. **Large-Scale Structure of the universe**: The large-scale structure of the universe, including the distribution of galaxies and galaxy clusters, aligns with the expectations of the Big Bang model, which predicts that matter should clump together under the influence of gravity over time. Although on small scales (up to $200 \operatorname{Mpc}$) there are complex structures violating both homogeneity and isotropy, on larger scales the universe appears to satisfy the cosmological principle. (Although this arises another problem, referred to as the "horizon problem".)
+4. **Large-Scale Structure of the universe**: The large-scale structure of the universe, including the distribution of galaxies and galaxy clusters, aligns with the expectations of the Big Bang model, which predicts that matter should clump together under the influence of gravity over time. Although there are potential violations of the cosmological principle, the large-scale structure of the universe is generally consistent with the Big Bang theory.
 5. **Time evolution of galaxy morphologies**: Observations show that galaxies evolved over time, with younger galaxies appearing different from older ones. This is consistent with an evolving universe as suggested by the Big Bang theory.
 6. **Age of the oldest known objects**: The oldest known objects in the universe, including globular clusters and white dwarf stars, have ages that are consistent with the universe's estimated age of approximately 13.8 billion years, as predicted by the Big Bang theory.
 
 ## 2.5. The future of the universe
+
+
+[^1]: https://npac.ijclab.in2p3.fr/wp-content/uploads/2020/Cours/Cosmology/friedmann-eqn.pdf

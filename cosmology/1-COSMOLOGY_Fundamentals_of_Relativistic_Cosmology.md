@@ -57,66 +57,69 @@ Together, these principles lay the groundwork for the Friedmann-Lemaître-Robert
 The Friedmann-Lemaître-Robertson-Walker (FLRW) metric is one of the most important results in cosmology. It describes the spacetime geometry of a homogeneous and isotropic universe, and serves as the basis for the standard model of Big Bang cosmology. Contrary to everything said in the introduction of this section, the FLRW metric is not a direct solution to the EFE. Rather it was derived simply from the geometrical properties of homogeneity and isotropy. The FLRW metric is given by
 
 $$
-    \operatorname{d}s^2
+    \mathrm{d}s^2
     =
-    -c^2 \operatorname{d}t^2 + a^2(t) \operatorname{d} \mathbf{\Sigma}^2 \, .
+    -c^2 \mathrm{d}t^2 + a^2(t) \mathrm{d} \mathbf{\Sigma}^2 \, .
 $$
 
-Here $\operatorname{d} \mathbf{\Sigma}^2$ is the line element of a 3-dimensional space of constant curvature. The function $a(t)$ is the scale factor, which describes the expansion of the universe as a function of cosmic time $t$. Regardless of the coordinate system used to describe the line element $\operatorname{d} \mathbf{\Sigma}^2$, the curvature of the $3$-space may be encapsulated by the curvature parameter $k$, with $k=+1$ representing positive curvature (spherical geometry), $k=0$ representing zero curvature (flat geometry), and $k=-1$ representing negative curvature (hyperbolic geometry).
+Here $\mathrm{d} \mathbf{\Sigma}^2$ describes the spatial geometry of the universe that is either flat, spherical or hyperbolic. The function $a(t)$ is the scale factor, which describes the expansion of the universe as a function of cosmic time $t$. Regardless of the coordinate system used to describe the line element $\mathrm{d} \mathbf{\Sigma}^2$, the curvature of the $3$-space may be encapsulated by the curvature parameter $k$, with $k=+1$ representing positive curvature (spherical geometry), $k=0$ representing zero curvature (flat geometry), and $k=-1$ representing negative curvature (hyperbolic geometry).
 
 The goal of the FLRW metric is to underpin the Big Bang model of cosmology, providing a mathematical description of a universe that expands from a hot, dense state (the Big Bang singularity), and continues to expand over time. Additionally, the scale factor $a(t)$, and its rate of change, encapsulate the dynamics of this expansion.
 
 However, it's worth noting that while the FLRW metric has been used as the basis for the Big Bang cosmology, it's based on an idealization. In reality, the universe exhibits structure on all scales, from galaxies to galaxy clusters and superclusters that cannot be explained by the FLRW metric that assumes a homogeneous and isotropic universe. This is why the FLRW metric is often used as a starting point for more complex models that incorporate inhomogeneities and anisotropies. 
 
 ## 1.3. Friedmann equations
-While it was already stated that the FLRW metric is not a direct solution to the EFE, they are needed to derive the Friedmann equations, a set of two independent equations that describe the time evolution of the scale factor $a(t)$.
+While it was already stated that the FLRW metric is not a direct solution to the EFE, they are needed to derive the Friedmann equations, a set of two independent equations that describe the time evolution of the scale factor $a(t)$. The derivation of the Friedmann equations involves the substitution of the FLRW metric into the EFE and then calculating the Ricci tensor, the Ricci scalar and the stress-energy tensor. Finally, putting everything back into the EFE yields the Friedmann equations.
 
-The first Friedmann equation is essentially an energy conservation equation, accounting for the total energy of a comoving volume of the universe:
+In this section the multicomponent universe is considered, where the matter-energy content of the universe is composed of multiple components, each with their own energy density and pressure. The difference between the single- and multi component universe will be discussed in [chapter 2](./2-COSMOLOGY_The_Evolution_of_the_Universe.md).
 
-$$
-    \dot{\varrho}
-    =
-    -3 \frac{\dot{a}}{a} \left( \varrho + \frac{p}{c^2} \right)
-$$
-
-Here, $\dot{a}$ denotes the derivative of the scale factor with respect to time, $G$ is the gravitational constant, $\varrho$ is the energy density of the universe, $k$ is the spatial curvature constant as defined in the FLRW metric, and $\Lambda$ is the cosmological constant.
-
-The second Friedmann equation describes the acceleration of the universe, it is:
-
-$$
-    \frac{\ddot{a}}{a}
-    =
-    -\frac{4\pi G}{3} \left( \varrho + \frac{3p}{c^2} \right)
-    +
-    \frac{\Lambda c^2}{3}
-    \, .
-$$
-
-Here, $\ddot{a}$ denotes the second derivative of the scale factor with respect to time, and $p$ is the pressure of the matter-energy content of the universe. It states that the acceleration can be affected by the total energy density of the universe, as well as the pressure of the matter-energy content of the universe, effectively decelerating the expansion process.
-
-Reformulating and simplyfying the Friedmann equations we can arrive on an easier-to-use form:
+### 1.3.2. The first Friedmann equation
+The first Friedmann equation that includes a cosmological constant can be written as:
 
 $$
     H^2
-    =
+    \equiv
     \left( \frac{\dot{a}}{a} \right)^2
     =
-    \frac{8\pi G}{3} \varrho
+    \frac{8\pi G}{3} \varrho_{\text{tot}}
     -
-    \frac{kc^2}{a^2} \, ,
+    \frac{kc^2}{a^2}
+    +
+    \frac{\Lambda c^2}{3}
+    \, ,
 $$
+
+where $H$ is the Hubble parameter, $\varrho_{\text{tot}}$ is the total energy density of the universe, $k$ is the curvature parameter, and $\Lambda$ is the cosmological constant. The Hubble parameter is a measure of the rate of expansion of the universe, and is defined as
+
+$$
+    H
+    \equiv
+    \frac{\dot{a}}{a}
+    \, .
+$$
+
+The first Friedmann equation states that the rate of change of the total energy density of the universe is proportional to the Hubble parameter, and is dependent on the total energy density and pressure of the matter-energy content of the universe. It is essentially an energy conservation equation, accounting for the total energy of a comoving volume of the universe.
+
+### 1.3.3. The second Friedmann equation
+The second Friedmann equation describes the acceleration of the universe:
 
 $$
     \dot{H} + H^2
     =
     \frac{\ddot{a}}{a}
     =
-    -\frac{4\pi G}{3} \left( \varrho + \frac{3p}{c^2} \right) \, .
+    -\frac{4\pi G}{3} \left( \varrho_{\text{tot}} + \frac{3p}{c^2} \right)
+    +
+    \frac{\Lambda c^2}{3}
+    \, .
 $$
 
-The equations above incorporate the three main "constituents" of the universe: matter (characterized by its energy density $\rho$), curvature (characterized by $k$), and dark energy or the cosmological constant ($\Lambda$). By solving these equations, we can describe the evolution of the universe as a function of its matter and energy content.
+It states that the acceleration can be affected by the total energy density of the universe, as well as the pressure of the matter-energy content of the universe, effectively decelerating the expansion process. The second Friedmann equation also includes the cosmological constant $\Lambda$, which is a constant term that can be added to the EFE to account for the observed accelerated expansion of the universe.
 
-We can define a specific density parameter $\Omega$ for each of these constituents, which is the ratio of the actual density of the constituent to the critical density $\varrho_c$:
+## 1.3.4. Density parameters
+The equations above incorporate the three main "constituents" of the universe: matter and radiation, curvature, and dark energy or the cosmological constant. By solving these equations, we can describe the evolution of the universe as a function of its matter and energy content. As the universe evolves, the energy density $\varrho$ and pressure $p$ can change, affecting the rate of expansion or contraction. This is why different eras of the universe are characterized by domination of different components: radiation, matter, or dark energy.
+
+We can define a specific density parameter $\Omega$ for each of these (and any additional, currently unknown) constituents, which is the ratio of the actual density of the constituent to the critical density $\varrho_c$:
 
 $$
     \Omega
@@ -141,17 +144,19 @@ $$
 
 Here, $\Omega_R$ is the density parameter for radiation, $\Omega_M$ is the density parameter for matter (dark matter and baryonic matter), $\Omega_k$ is the density parameter for curvature, and $\Omega_\Lambda$ is the density parameter for dark energy. $\Omega_{\text{others}}$ is a placeholder for other constituents that may be present in the universe, not known to science at the time of writing.
 
-Using these densities, the first Friedmann equation can then be rewritten for any epoch of the universe in context of the present epoch (where $a=1$ and $H=H_{0}$) and where the density parameters are fixed at their present values:
+Using these densities, the Friedmann equations can then be rewritten for any epoch of the universe in context of the present epoch (where $a=1$ and $H=H_{0}$) and where the density parameters are fixed at their present values:
 
 $$
     \frac{H^{2}}{H_{0}^{2}}
     =
     \Omega_{0,R} a^{-4} + \Omega_{0,M} a^{-3}
     +
-    \Omega_{0,k} a^{-2} + \Omega_{0,\Lambda} \, .
+    \Omega_{0,k} a^{-2} + \Omega_{0,\Lambda} a^{0}
+    \left( + \Omega_{0,X} a^{-3(1+w_{X})} \right)
+    \, .
 $$
 
-Here eg. $\Omega_{0,R}$ is the density parameter for radiation at the present epoch, $\Omega_{0,M}$ is the density parameter for matter at the present epoch, and so on.
+Here eg. $\Omega_{0,R}$ is the density parameter for radiation at the present epoch, $\Omega_{0,M}$ is the density parameter for matter at the present epoch, and so on. This equation gives us a way to calculate the Hubble parameter $H$ at any epoch of the universe, given the density parameters at the present epoch!
 
 Similarly to the remarks made about the FLRW metric, the Friedmann equations are best applicable on large scales where the assumptions of the cosmological principle hold. For smaller scales or in cases where more detail is needed, more complex models and equations may be needed.
 
