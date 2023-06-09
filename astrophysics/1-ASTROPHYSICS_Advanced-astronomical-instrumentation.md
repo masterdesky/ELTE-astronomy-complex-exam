@@ -1,6 +1,6 @@
 # 1. Advanced astronomical instrumentation
 Astronomical instruments can be classified based on several different attributes
-## 1.1. Classification by **detection domain**
+## 1.1. Classification by detection domain
 ### 1.1.1. Optical instruments
 
 ### 1.1.2. Infrared instruments
@@ -13,7 +13,7 @@ Astronomical instruments can be classified based on several different attributes
 
 ### 1.1.6. Multi-messenger astronomy
 
-## 1.2. Classification by **methodology**
+## 1.2. Classification by methodology
 
 ### 1.2.1. Photometry
 
@@ -23,7 +23,7 @@ Astronomical instruments can be classified based on several different attributes
 
 ### 1.2.4. Other: Radiometry
 
-## 1.3. Classification by **physical location**
+## 1.3. Classification by physical location
 ### 1.3.1. Ground-based telescopes
 
 #### Challanges and their solutions
