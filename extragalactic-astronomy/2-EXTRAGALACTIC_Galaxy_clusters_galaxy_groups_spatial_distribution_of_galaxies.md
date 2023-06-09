@@ -32,7 +32,7 @@ $$
     } \, ,
 $$
 
-where the central density $\varrho_{0}$ and the scale radius $R_{s}$ are determined by fitting the profile to the observed galaxy distribution. This equation describes the universal density profile of dark matter halos in hierarchically clustering universes[^1].
+where the characteristic density $\varrho_{0}$ and the scale radius $R_{s}$ are determined by fitting the profile to the observed galaxy distribution. This equation describes the universal density profile of dark matter halos in hierarchically clustering universes[^1]. The importance of this density profile is that it explains the observed flat rotation curves of spiral galaxies, which is a key piece of evidence for the existence of dark matter.
 
 An important concept in the study of galaxy clusters is the idea of the galaxy color–magnitude diagram (CMD). This encompasses the relationship between the color and absolute magnitude of celestial objects, in this case, galaxies. In the galaxy CMD, galaxies form thre distinct sequences known as the "red sequence", "green valley" and "blue cloud". Each of these sequences corresponds to a different type of galaxy, with the red sequence containing mostly older, elliptical galaxies, the blue cloud containing younger, star-forming spiral galaxies, and the green valley containing galaxies that are transitioning from the blue cloud to the red sequence. Our home, the Milky Way galaxy is assumed to be located in the green valley, as star formation seems to slowly be decreasing.
 
