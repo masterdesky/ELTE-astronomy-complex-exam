@@ -29,25 +29,67 @@ The Cosmic Microwave Background (CMB) provides the earliest observable evidence 
 To describe the statistical properties of these fluctuations, we use the power spectrum $P(k)$ of the density field, which describes the amplitude of density fluctuations as a function of scale (given by the wavenumber $k$). The exact form of the power spectrum depends on the specifics of the inflationary model, but a common feature is a "scale-invariant" spectrum, where $P(k)$ is approximately constant over a wide range of scales.
 
 ## 3.3. Linear fluctuation growth
-The growth of density fluctuations in the universe is a fundamental aspect of structure formation. In the early universe, these fluctuations were small, and their evolution can be described using eg. linear perturbation theory, also known as Zel'dovich approximation.
+The growth of density fluctuations in the universe is a fundamental aspect of structure formation. In the early universe, these fluctuations were small, and their evolution can be described using eg. the Eulerian linear perturbation theory.
 
-The Zel'dovich approximation is applicable when the so-called matter overdensity, defined as $\delta(\mathbf{x}) = (\varrho(\mathbf{x}) - \bar{\varrho})/\bar{\varrho}$, is much less than $1$. Here, $\varrho$ is the local density, and $\bar{\varrho}$ is the mean density of the universe. In this regime, the fluctuations grow proportionally with the scale factor of the universe, $a(t)$, in matter-dominated epochs.
-
-The growth of these fluctuations can be described by the linear growth factor, $D(a)$, which represents the growth of density fluctuations relative to the scale factor of the universe. This factor is given by the following integral:
+Fluctations causes the density field of the content of the universe to deviate from its mean value, $\bar{\varrho}(\tau)$. The quantity describing this deviation is the density contrast, $\delta(\mathbf{x}, \tau)$, which is defined as the fractional deviation from the mean density:
 
 $$
-    D(a)
+    \delta(\mathbf{x}, \tau)
     =
-    \frac{5 \Omega_{m}}{2a} \frac{da}{d\tau}
-    \int_{0}^{a} \left( \frac{da'}{d\tau} \right)^{-3} \mathrm{d}a'
+    \frac{\varrho(\mathbf{x}, \tau) - \bar{\varrho}(\tau)}{\bar{\varrho}(\tau)} \, ,
 $$
 
-Here, $H(a)$ is the Hubble parameter, $H_0$ is the Hubble constant, and $\Omega_m(a)$ is the matter density parameter. In a matter-dominated universe with no cosmological constant, the growth factor is proportional to $a$, i.e., $D(a) \propto a$.
+Here, $\varrho$ is the local density, and $\bar{\varrho}$ is the mean density of the universe. The coordinate $\mathbf{x}$ is the comoving coordinate, which is related to the physical coordinate $\mathbf{r}$ by $\mathbf{x} = \mathbf{r}/a(\tau)$, where $a(\tau)$ is the scale factor of the universe and $\tau$ is the conformal time.
 
-However, the presence of dark energy affects the growth of structures. In a universe with a cosmological constant, the growth of structures slows down at late times due to the accelerated expansion of the universe. If we assume a universe with densities $\Omega_{m}$ and $\Omega_{\Lambda}$, we can use the approximation formula for the growth factor[^1]:
+In the linear approximatiion, we assume that the density contrast is small, i.e., $\delta \ll 1$. This allows us to linearize the problem and obtain the equations of motion of the density field for the linear regime as[^1]
 
 $$
-    D(\Omega_{m}, \Omega_{\Lambda})
+    \frac{\partial \delta(\mathbf{x}, \tau)}{\partial \tau}
+    +
+    \theta(\mathbf{x}, \tau)
+    =
+    0 \, ,
+$$
+
+$$
+    \frac{\partial \mathbf{u}(\mathbf{x}, \tau)}{\partial \tau}
+    +
+    \mathcal{H}(\tau) \mathbf{u}(\mathbf{x}, \tau)
+    =
+    - \nabla \Phi(\mathbf{x}, \tau) \, ,
+$$
+
+where $\theta(\mathbf{x}, \tau)$ is the divergence of the peculiar velocity field $\mathbf{u}(\mathbf{x}, \tau)$, $\mathcal{H}(\tau) = \dot{a}/a$ is the conformal Hubble parameter, and $\Phi(\mathbf{x}, \tau)$ is the gravitational potential. The first equation is the continuity equation, and the second is the Euler equation.
+
+The equations of motion of the density field combined with the equations for the velocity field results in a differential equation for the evolution of the density contrast. That equation combined with the Friedmann equation for the evolution of the scale factor of the universe, $a(\tau)$, describes the evolution of the density contrast in the linear regime as
+
+$$
+    \delta(\mathbf{x}, \tau)
+    =
+    D_{1}^{(+)} (\tau) A (\mathbf{x}) + D_{1}^{(-)} (\tau) B (\mathbf{x}) \, ,
+$$
+
+where $D_{1}^{(+)} (\tau)$ and $D_{1}^{(-)} (\tau)$ are the two solutions of the aforementioned system of differential equations, and $A (\mathbf{x})$ and $B (\mathbf{x})$ are the initial conditions for the density contrast and its time derivative.
+
+Now depending on the density content of the mixture filling the universe, the growth factor $D_{1}^{\pm} (\tau)$ can be calculated in various ways. In the relevant era for the growth of structures in our universe, the universe was dominated by matter with a contribution from dark energy. In this case, the growth factor can be calculated as
+
+$$
+    D_{1}^{(+)}
+    =
+    H(a) \frac{5 \Omega_{m}}{2}
+    \int_{0}^{a} \frac{\mathrm{d}a}{a^{3} H(a)} \, ,
+$$
+
+$$
+    D_{1}^{(-)}
+    =
+    \frac{\mathcal{H}}{a} \, .
+$$
+
+Here, $H(a)$ is the Hubble parameter, and $\Omega_m(a)$ is the matter density parameter. In a universe with a cosmological constant $\Omega_{\Lambda}$, the growth of structures slows down at late times due to the accelerated expansion of the universe. The integral in the expression for $D_{1}^{(+)}$ unfortunately can not be evaluated analytically, but it can be approximated using the following formula[^2]:
+
+$$
+    D_{1}^{(+)}(\Omega_{m}, \Omega_{\Lambda})
     \approx
     \frac{5}{2} \Omega_{m}
     \left[
@@ -75,15 +117,7 @@ $$
     \frac{1}{V} \int \mathrm{d}^{3}\mathbf{x} \delta(\mathbf{x}) \delta(\mathbf{x} + r)
 $$
 
-This equation measures the correlation between density fluctuations at two points separated by a distance $\mathbf{r} = \mathbf{x} - \mathbf{x'}$. Here, $\delta(\mathbf{x})$ is the matter overdensity at a point $\mathbf{x}$:
-
-$$
-    \delta(\mathbf{x})
-    =
-    \frac{\varrho(\mathbf{x}) - \bar{\varrho}}{\bar{\varrho}} \, .
-$$
-
-From this definition, we can relate the correlation function to the power spectrum using the Fourier transform:
+This equation measures the correlation between density fluctuations at two points separated by a distance $\mathbf{r} = \mathbf{x} - \mathbf{x'}$. Here, $\delta(\mathbf{x})$ is the matter overdensity. From this definition, we can relate the correlation function to the power spectrum using the Fourier transform:
 
 $$
     \xi(r)
@@ -97,4 +131,5 @@ Through the quantities discussed in this chapter, the large-scale structure of t
 Although the large-scale structure provides a wealth of information, interpreting this data is a complex task that requires a careful analysis and modeling. Factors such as galaxy bias, non-linear gravitational evolution, and redshift-space distortions can complicate the interpretation of large-scale structure observations. Numerical simulations are widely employed to study these effects and to make predictions for cosmological observables.
 
 
-[^1]: Carroll, S. M. (2001). The cosmological constant. Living reviews in relativity, 4(1), 1-56.
+[^1]: Bernardeau, F., Colombi, S., Gaztanaga, E., & Scoccimarro, R. (2002). Large-scale structure of the Universe and cosmological perturbation theory. Physics reports, 367(1-3), 1-248.
+[^2]: Carroll, S. M. (2001). The cosmological constant. Living reviews in relativity, 4(1), 1-56.
