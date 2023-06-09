@@ -75,6 +75,8 @@ Another problem addressed by inflation is the flatness problem, which is the que
 
 The theory of inflation also provides a mechanism for the generation of the primordial density fluctuations that gave rise to the large-scale structure of the universe. These fluctuations are thought to have originated as quantum fluctuations in the inflation field, which were stretched to cosmic scales during inflation.
 
+More information about this topics can be found in [chapter 7](./7-COSMOLOGY_Cosmological_inflation.md) of the cosmology section.
+
 ## 5.7. The entropy of the Universe
 Entropy is a fundamental concept in thermodynamics that quantifies the amount of disorder or randomness in a system. In cosmology, the entropy of the universe is a measure of its disorder and is thought to have been increasing since the Big Bang.
 
