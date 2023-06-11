@@ -9,13 +9,13 @@ $$
 where $I_{\nu}$ is the specific intensity of the radiation, $\kappa_{\nu}$ is the absorption coefficient, $j_{\nu}$ is the emission coefficient, and $s$ is the distance along the path of the radiation. The absorption coefficient is given by
 
 $$
-    \kappa_{\nu} = \sigma_{\nu} \rho \, ,
+    \kappa_{\nu} = \sigma_{\nu} \varrho \, ,
 $$
 
-where $\sigma_{\nu}$ is the absorption cross section and $\rho$ is the density of the material. The emission coefficient is given by
+where $\sigma_{\nu}$ is the absorption cross section and $\varrho$ is the density of the material. The emission coefficient is given by
 
 $$
-    j_{\nu} = \sigma_{\nu} \rho B_{\nu} \, ,
+    j_{\nu} = \sigma_{\nu} \varrho B_{\nu} \, ,
 $$
 
 where $B_{\nu}$ is the Planck function. The equation of radiative transfer can be solved analytically for simple geometries and boundary conditions, but in general it requires numerical methods. The radiative transfer equation is a special case of the Boltzmann transport equation, which describes the transport of particles through a medium.
