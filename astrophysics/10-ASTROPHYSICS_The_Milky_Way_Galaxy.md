@@ -21,7 +21,7 @@ The bulge of the Milky Way is a densely packed, spheroidal region located at the
 
 The Milky Way's bulge exhibits a boxy or bar-like shape, a characteristic that has been revealed through detailed observations of star counts and the distribution of stellar velocities. This boxy shape is thought to be the result of a bar instability in the disk of the galaxy.
 
-The stars in the Milky Way's bulge are predominantly old, with a significant fraction being more than 10 billion years old. These stars are generally metal-rich, suggesting that they formed from a gas that had already been enriched by previous generations of stars. However, the bulge also contains a smaller population of younger, metal-poor stars, indicating a complex star formation history.
+The stars in the Milky Way's bulge are predominantly old, with a significant fraction being more than $10$ billion years old. These stars are generally metal-rich, suggesting that they formed from a gas that had already been enriched by previous generations of stars. However, the bulge also contains a smaller population of younger, metal-poor stars, indicating a complex star formation history.
 
 The bulge of the Milky Way is also notable for its role in hosting the galaxy's central supermassive black hole, known as Sagittarius A*. The presence of this black hole has been inferred from the rapid motion of stars near the galactic center, and it plays a crucial role in the dynamics and evolution of the bulge.
 

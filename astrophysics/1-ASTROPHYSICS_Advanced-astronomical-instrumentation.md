@@ -46,8 +46,14 @@ One of the first scientifically important application of multi-messenger astrono
 Astronomical instruments can also be classified by the methodology they use to observe and measure astronomical phenomena. This can include techniques like photometry, spectroscopy, interferometry, and radiometry. Each of these techniques provides different types of data and can be used to study different aspects of the universe.
 
 ### 1.2.1. Photometry
+Photometry is the science of measuring the brightness of celestial objects. It is a fundamental technique in astronomy, used to study stars, galaxies, and other celestial bodies. Photometry can provide information about a star's size, temperature, and chemical composition, and it is also used to detect exoplanets by observing the slight dimming of a star as a planet passes in front of it (transit method).
+
+One notable example of a photometric instrument is the James Webb Space Telescope (JWST), which uses its Near Infrared Camera (NIRCam) and Mid Infrared Instrument (MIRI) to observe the universe in the infrared part of the spectrum. The JWST allows astronomers to look further back in time than any instrument before to see the earliest galaxies that formed in the universe. It also provides detailed observations of exoplanets, among other things.
 
 ### 1.2.2. Spectroscopy
+Spectroscopy is the study of the interaction between matter and electromagnetic radiation. In astronomy, spectroscopy is used to analyze the light from celestial bodies to determine their composition, temperature, velocity, and other properties. This is done by studying the spectrum of light from these objects, which contains dark lines (absorption lines) or bright lines (emission lines) that correspond to the elements present.
+
+A notable example of a spectroscopic instrument is the Sloan Digital Sky Survey (SDSS), which has used spectroscopy to create detailed three-dimensional maps of the universe, providing data on the distances and properties of millions of galaxies and quasars.
 
 ### 1.2.3. Interferometry
 Interferometry is a technique that combines the signal from multiple telescopes to create a virtual telescope with a size equal to the maximum separation between the telescopes. In interferometry, each telescope in an array observes a celestial object and collects a wavefront from that object. Because the telescopes are separated by some distance, the wavefronts will arrive at each telescope at slightly different times. This creates a phase difference between the signals received by each telescope. By combining the signals from all the telescopes and adjusting for these phase differences, astronomers can create an interference pattern. This pattern can be analyzed to extract high-resolution information about the observed object. This technique allows for much higher resolution observations than could be achieved with a single telescope. It can be also used with optical, infrared, and radio telescopes.
@@ -56,7 +62,7 @@ An important example of optical interferometry is Very Long Baseline Interferome
 
 The Event Horizon Telescope, which I mentioned earlier, is a global VLBI array that was used to create the first image of a black hole. By combining the data from multiple radio telescopes around the world, the EHT was able to achieve the resolution necessary to image the black hole's event horizon.
 
-### 1.2.4. Other: Radiometry
+### 1.2.4. Notable other: Radiometry
 Radiometry involves measuring the intensity of electromagnetic radiation, including light. In the context of astronomy, radiometry is used in the detection and measurement of radiation from celestial bodies across the electromagnetic spectrum. This can provide information about the temperature, composition, and other properties of these bodies.
 
 Some notable examples of radiometric instruments are the COBE, WMAP and Planck satellites, which used radiometry to study the cosmic microwave background radiation, providing detailed measurements of the temperature fluctuations in this radiation that have provided important insights into the physical processes governing the early universe.
@@ -64,7 +70,7 @@ Some notable examples of radiometric instruments are the COBE, WMAP and Planck s
 ## 1.3. Classification by physical location
 Astronomical instruments can also be classified by their physical location. This typically refers to whether the instrument is ground-based or space-based, each of which has its own advantages and challenges.
 
-### 1.3.1. Ground-Based Telescopes
+### 1.3.1. Ground-based telescopes
 Ground-based telescopes are located on Earth's surface. They are generally easier and less expensive to build, maintain, and upgrade than space-based telescopes. They can also be much larger than space-based telescopes, which allows them to collect more light and achieve higher resolution.
 
 However, ground-based telescopes have to contend with several challenges:
@@ -78,7 +84,7 @@ However, ground-based telescopes have to contend with several challenges:
 - **Limited access to certain parts of the sky**: Ground-based telescopes are limited in their ability to observe certain parts of the sky, such as the regions near the horizon or near the poles, due to the curvature of the Earth.
 - **Satellite trails**: Ground-based telescopes can be affected by satellite trails, which are the streaks of light left behind by satellites as they move across the sky. These trails can interfere with observations, especially of faint objects.
 
-### 1.3.2. Space-Based Telescopes
+### 1.3.2. Space-based telescopes
 Space-based telescopes are located above Earth's atmosphere. This eliminates all of the challanges mentioned in the previous section, allowing these telescopes to make observations that are not possible with ground-based telescopes.
 
 However, space-based telescopes have their own challenges:

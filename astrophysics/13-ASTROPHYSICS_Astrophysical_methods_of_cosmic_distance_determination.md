@@ -21,7 +21,7 @@ The principle of parallax is similar to the effect you see when you hold up a fi
 In the case of stellar parallax, the two points are the Earth at two different points in its orbit around the Sun, six months apart. The star's parallax is the angle subtended at the star by the radius of the Earth's orbit. The unit of measurement here is the arcsecond, and one *parsec* is defined as the distance to a star that has a parallax of one arcsecond. The formula relating distance $d$ in parsecs and parallax $p$ is:
 
 $$
-    d = \frac{1}{p['']}
+    d[pc] = \frac{1}{p['']}
 $$
 
 This method is most effective for stars within a few hundred light-years of Earth. Beyond this, the parallax angle becomes too small to measure accurately with current technology.

@@ -35,40 +35,40 @@ The CNO (carbon-nitrogen-oxygen) cycle is a competing nuclear fusion process tha
 
 The basic CNO cycle involves these reactions:
 
-1. $\ce{^{12}\mathrm{C}}$ captures a proton to form $\ce{^{13}\mathrm{N}}$:
+1. $\ce{_{6}^{12}\mathrm{C}}$ captures a proton to form $\ce{_{7}^{13}\mathrm{N}}$:
 
 $$
-    \ce{^{12}\mathrm{C}} + p^{+} \to \ce{^{13}\mathrm{N}}
+    \ce{_{6}^{12}\mathrm{C}} + p^{+} \to \ce{_{7}^{13}\mathrm{N}}
 $$
 
-2. $\ce{^{13}\mathrm{N}}$ undergoes beta decay to form $\ce{^{13}\mathrm{C}}$:
+2. $\ce{_{7}^{13}\mathrm{N}}$ undergoes beta decay to form $\ce{_{6}^{13}\mathrm{C}}$:
 
 $$
-    \ce{^{13}\mathrm{N}} \to \ce{^{13}\mathrm{C}} + e^{+} + \nu_{e}
+    \ce{_{7}^{13}\mathrm{N}} \to \ce{_{6}^{13}\mathrm{C}} + e^{+} + \nu_{e}
 $$
 
-3. $\ce{^{13}\mathrm{C}}$ captures a proton to form $\ce{^{14}\mathrm{N}}$:
+3. $\ce{_{6}^{13}\mathrm{C}}$ captures a proton to form $\ce{_{7}^{14}\mathrm{N}}$:
 
 $$
-    \ce{^{13}\mathrm{C}} + p^{+} \to \ce{^{14}\mathrm{N}}
+    \ce{_{6}^{13}\mathrm{C}} + p^{+} \to \ce{_{7}^{14}\mathrm{N}}
 $$
 
-4. $\ce{^{14}\mathrm{N}}$ captures a proton to form $\ce{^{15}\mathrm{C}}$:
+4. $\ce{_{7}^{14}\mathrm{N}}$ captures a proton to form $\ce{_{8}^{15}\mathrm{O}}$:
 
 $$
-    \ce{^{14}\mathrm{N}} + p^{+} \to \ce{^{15}\mathrm{C}}
+    \ce{_{7}^{14}\mathrm{N}} + p^{+} \to \ce{_{8}^{15}\mathrm{O}}
 $$
 
-5. $\ce{^{15}\mathrm{C}}$ undergoes beta decay to form $\ce{^{15}\mathrm{N}}$:
+5. $\ce{_{8}^{15}\mathrm{O}}$ undergoes beta decay to form $\ce{_{7}^{15}\mathrm{N}}$:
 
 $$
-    \ce{^{15}\mathrm{C}} \to \ce{^{15}\mathrm{N}} + e^{+} + \nu_{e}
+    \ce{_{8}^{15}\mathrm{O}} \to \ce{_{7}^{15}\mathrm{N}} + e^{+} + \nu_{e}
 $$
 
-6. $\ce{^{15}\mathrm{N}}$ captures a proton and releases a helium-4 nucleus, regenerating the initial $\ce{^{12}\mathrm{C}}$ nucleus:
+6. $\ce{_{7}^{15}\mathrm{N}}$ captures a proton and releases a helium-4 nucleus, regenerating the initial $\ce{_{6}^{12}\mathrm{C}}$ nucleus:
 
 $$
-    \ce{^{15}\mathrm{N}} + p^{+} \to \ce{^{12}\mathrm{C}} + \ce{^{4}\mathrm{He}}
+    \ce{_{7}^{15}\mathrm{N}} + p^{+} \to \ce{_{6}^{12}\mathrm{C}} + \ce{^{4}\mathrm{He}}
 $$
 
 The net effect of the CNO cycle, like the p-p chain, is to convert hydrogen into helium, with a release of energy.

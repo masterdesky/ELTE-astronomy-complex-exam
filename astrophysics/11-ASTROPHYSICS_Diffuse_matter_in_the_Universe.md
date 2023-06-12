@@ -13,7 +13,7 @@ Interstellar dust and gas are the two primary components of the ISM. They are bo
 ### 11.2.1. Interstellar dust
 Interstellar dust is composed of tiny solid particles that range in size from a few nanometers to several micrometers. These particles are complex and heterogeneous, often consisting of a core of silicates or carbonaceous material surrounded by a mantle of ices. Despite making up only about $1\%$ of the mass of the ISM, interstellar dust has a significant impact on the ISM and the galaxy as a whole.
 
-Dust particles can absorb, scatter, and re-emit radiation, influencing the energy balance of the ISM. They also provide surfaces for complex chemical reactions to occur, leading to the formation of molecules, including molecular hydrogen, which is crucial for star formation. Furthermore, dust grains can become polarized, providing valuable information about the magnetic fields in the ISM.
+Dust particles can absorb, scatter, and re-emit radiation, influencing the energy balance of the ISM. They also provide surfaces for complex chemical reactions to occur, leading to the formation of molecules, including molecular hydrogen, which is crucial for star formation. Furthermore, dust grains can become polarized, providing valuable information about the magnetic fields in the ISM on observation.
 
 ### 11.2.2. Interstellar gas
 Interstellar gas makes up the majority of the ISM's mass and is primarily composed of hydrogen and helium, with trace amounts of heavier elements. The gas can exist in various forms, including atomic, molecular, and ionized, depending on the local conditions.

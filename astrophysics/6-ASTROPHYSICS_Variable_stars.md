@@ -6,15 +6,15 @@ Variable stars are stars that experience changes in their brightness over time. 
 There are several types of variable stars, each with unique characteristics. They can be categorized into two larger groups based on whether internal or external factors cause their variability.
 
 1. Intrinsic variable stars:
-   - **Pulsating variables**: These stars expand and contract, leading to changes in their brightness. Examples include Cepheids and RR Lyrae stars.
-   - **Eruptive variables**: These stars experience sudden outbursts of brightness due to eruptions of material from their surface.
-   - **Cataclysmic variables**: The variability of these stars is due to a sudden, catastrophic event, such as a nova or supernova.
+   - **Pulsating variables** expand and contract, leading to changes in their brightness. Examples include Cepheids and RR Lyrae stars.
+   - **Eruptive variables** experience sudden outbursts of brightness due to eruptions of material from their surface.
+   - The variability of **Cataclysmic variables** is due to a sudden, catastrophic event, such as a nova or supernova.
 2. Extrinsic variable stars:
-   - **Eclipsing binaries**: These are binary star systems where the orbital plane is nearly in line with our line of sight. As a result, the stars eclipse each other, leading to changes in the system's overall brightness.
-   - **Rotating variables**: These stars have spots or other features that cause their brightness to change as they rotate.
+   - **Eclipsing binaries** are binary star systems where the orbital plane is nearly in line with our line of sight. As a result, the stars eclipse each other, leading to changes in the system's overall brightness.
+   - **Rotating variables** have spots or other features that cause their brightness to change as they rotate.
 3. Other types:
-   - **Semi-regular variables**: These stars have a regular period of variability, but the changes in brightness are not as regular as those of pulsating variables.
-   - **Irregular variables**: These stars do not have a regular period of variability. Their changes in brightness can be unpredictable.
+   - **Semi-regular variables** have a regular period of variability, but the changes in brightness are not as regular as those of pulsating variables.
+   - **Irregular variables** do not have a regular period of variability. Their changes in brightness can be unpredictable.
 
 
 ## 6.2. Pulsating variables

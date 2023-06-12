@@ -47,7 +47,7 @@ In the context of cosmology, some of the most important solutions to the EFE are
 ## 1.1. The cosmological and Copernican principles
 The cosmological and Copernican principles are two foundational assumptions in modern cosmology that greatly shape our understanding of the universe's structure and evolution.
 
-The **Cosmological Principle** states that the universe, on large scales, is homogeneous and isotropic. Homogeneity implies that the universe is uniform throughout: it has the same properties and structure at every point in space. Isotropy, on the other hand, means that the universe appears the same in all directions, regardless of our observation point. However, we should keep in mind that these are approximations; on smaller scales (such as within galaxy clusters), the universe is neither perfectly homogeneous nor isotropic. There are both theoretical models and observations that challenge the assumption of large-scale isotropy, such as the AvERA cosmological model or the Cold Spot in the cosmic microwave background (CMB).
+The **Cosmological Principle** states that the universe, on large scales, is homogeneous and isotropic. Homogeneity implies that the universe is uniform throughout: it has the same properties and structure at every point in space. Isotropy, on the other hand, means that the universe appears the same in all directions, regardless of our observation point. However, we should keep in mind that these are approximations; on smaller scales (such as within galaxy clusters), the universe is neither perfectly homogeneous nor isotropic. There are both theoretical models and observations that challenge this principle, such as the AvERA cosmological model or the Cold Spot in the cosmic microwave background (CMB).
 
 The **Copernican Principle** is a philosophical statement about our place in the universe. It posits that we are not in a special or central location; our vantage point is not privileged in any way. This principle is an extension of the cosmological principle and serves as a philosophical underpinning for it. The Copernican Principle is named after the astronomer Nicolaus Copernicus, who argued for a heliocentric model of the solar system, displacing Earth from the center of the universe.
 
@@ -117,7 +117,7 @@ $$
 It states that the acceleration can be affected by the total energy density of the universe, as well as the pressure of the matter-energy content of the universe, effectively decelerating the expansion process. The second Friedmann equation also includes the cosmological constant $\Lambda$, which is a constant term that can be added to the EFE to account for the observed accelerated expansion of the universe.
 
 ## 1.3.4. Density parameters
-The equations above incorporate the three main "constituents" of the universe: matter and radiation, curvature, and dark energy or the cosmological constant. By solving these equations, we can describe the evolution of the universe as a function of its matter and energy content. As the universe evolves, the energy density $\varrho$ and pressure $p$ can change, affecting the rate of expansion or contraction. This is why different eras of the universe are characterized by domination of different components: radiation, matter, or dark energy.
+The equations above incorporate several main "constituents" of the universe: matter, radiation, curvature, and dark energy or the cosmological constant. By solving the Friedmann equations, we can describe the evolution of the universe as a function of its matter and energy content. As the universe evolves, the energy density $\varrho$ and pressure $p$ can change, affecting the rate of expansion or contraction. This is why different eras of the universe are characterized by domination of different components: radiation, matter, or dark energy.
 
 We can define a specific density parameter $\Omega$ for each of these (and any additional, currently unknown) constituents, which is the ratio of the actual density of the constituent to the critical density $\varrho_c$:
 
@@ -131,6 +131,15 @@ $$
     \Omega_{i}
     =
     \frac{\varrho_{i}(t)}{\varrho_{c}(t)}
+$$
+
+The critical density $\varrho_c$ is the density of the universe that is required for the universe to be flat. It is defined as:
+
+$$
+    \varrho_c
+    =
+    \frac{3 H^2}{8\pi G}
+    \, .
 $$
 
 We can then define a density $\Omega_{i}$ for each of the constituents themeselves:
@@ -208,13 +217,13 @@ There are three possible spatial geometries for the universe: flat, positively c
 Observations, such as those from the Planck satellite, strongly suggest that our universe is flat, or very close to flat. However, these observations do not completely rule out a slightly curved universe. Examining the spatial geometry of the universe remains an active area of research in cosmology.
 
 ## 1.7. Cosmological constant
-The cosmological constant $\Lambda$, is nowadays a key term in the Einstein field equations of general relativity, initially introduced by Einstein himself as a mechanism to preserve the notion of a static Universe. Its inclusion allows a non-zero vacuum energy, presenting a possibility of a Universe with a repulsive force countering gravity on cosmological scales.
+The cosmological constant $\Lambda$, is nowadays a key term in the Einstein field equations of general relativity, initially introduced by Einstein himself as a mechanism to preserve the notion of a static universe. Its inclusion allows a non-zero vacuum energy, presenting a possibility of a universe with a repulsive force countering gravity on cosmological scales.
 
 ### 1.7.1. Historical background
-The cosmological constant was first proposed by Einstein in 1917 as a means of ensuring that the mathematical solutions of his field equations were consistent with the then-popular idea of ​​a "static" universe. However, Edwin Hubble's discovery of the expansion of the Universe in 1929 essentially invalidated the need for a cosmological constant, which would lead Einstein to call it his "greatest blunder."
+The cosmological constant was first proposed by Einstein in 1917 as a means of ensuring that the mathematical solutions of his field equations were consistent with the then-popular idea of ​​a "static" universe. However, Edwin Hubble's discovery of the expansion of the universe in 1929 essentially invalidated the need for a cosmological constant, which would lead Einstein to call it his "greatest blunder."
 
 ### 1.7.2. Revival and dark energy
-Despite its rocky inception, $\Lambda$ made a comeback in the late 20th century. Observations of distant SNe in the 1990s indicated that the expansion of the Universe is accelerating, contrary to the expectations of a Universe dominated by matter. This accelerated expansion could be accounted for by reintroducing the cosmological constant, this time with a positive value, into the Einstein Field Equations, where it now represents the energy density of the vacuum, or so-called "Dark Energy" with a value of $\Lambda = 0.6847 \pm 0.0073$ acoording to the 2018 Planck results[^2].
+Despite its rocky inception, $\Lambda$ made a comeback in the late 20th century. Observations of distant SNe in the 1990s indicated that the expansion of the universe is accelerating, contrary to the expectations of a universe dominated by matter. This accelerated expansion could be accounted for by reintroducing the cosmological constant, this time with a positive value, into the Einstein Field Equations, where it now represents the energy density of the vacuum, or so-called "Dark Energy" with a value of $\Lambda = 0.6847 \pm 0.0073$ acoording to the 2018 Planck results[^2].
 
 In the cosmological $\Lambda$CDM model (where $\Lambda$ represents the cosmological constant, CDM stands for Cold Dark Matter), dark energy is responsible for approximately $70\%$ of the total energy density of the universe. It is uniformly distributed in space, does not dilute as the universe expands, and causes the expansion of the universe to accelerate.
 

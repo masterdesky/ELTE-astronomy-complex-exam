@@ -57,7 +57,7 @@ $$
     \frac{2 h \nu^3}{c^2} \frac{1}{\exp \left( \frac{h \nu}{k_B T} \right) - 1} \, ,
 $$
 
-where $h$ is the Planck constant, $c$ is the speed of light, $k_B$ is the Boltzmann constant, $\nu$ is the frequency of the radiation, and $T$ is the temperature of the object. The total energy $j^{\ast}$, radiated per unit surface area of a black body across all wavelengths per unit time is given by the Stefan-Boltzmann law as
+where $B_{\nu}$ is the spectral radiance, $h$ is the Planck constant, $c$ is the speed of light, $k_B$ is the Boltzmann constant, $\nu$ is the frequency of the radiation, and $T$ is the temperature of the object. The total energy $j^{\ast}$, radiated per unit surface area of a black body across all wavelengths per unit time is given by the Stefan-Boltzmann law as
 
 $$
     j^{\ast} = \sigma T^4 \, ,

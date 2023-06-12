@@ -85,13 +85,11 @@ As the planet orbits the star, it causes the star to move in a small circular or
 The radial velocity method gives information about the planet's mass and orbital period, but it requires high-precision spectroscopy and is most effective for detecting large planets in close orbits around their stars.
 
 ### 7.3.3. Direct imaging
-Direct imaging involves capturing images of the exoplanet directly. This is the most challenging method of exoplanet detection, as the light from the planet is extremely faint compared to the light from the star. However, it provides the most direct evidence of an exoplanet and can give information about the planet's orbit, size, and even its atmospheric composition.
-
-Direct imaging is currently limited to large planets in wide orbits around their stars, and it requires advanced techniques to block out the light from the star, such as coronagraphs or starshades.
+Direct imaging involves capturing images of the exoplanet directly. This is the most challenging method of exoplanet detection, as the light from the planet is extremely faint compared to the light from the star. However, it provides the most direct evidence of an exoplanet.
 
 Each of these methods has contributed to the discovery and characterization of exoplanets, and future advancements in technology and techniques will undoubtedly lead to the detection of even more exoplanets, including potentially habitable Earth-like planets.
 
-As of 2023, there are over 4,000 confirmed exoplanets, with thousands more awaiting confirmation. The majority of these exoplanets have been discovered using the transit method, followed by the radial velocity method and direct imaging.
+As of 2023, there are over $4\,000$ confirmed exoplanets, with thousands more awaiting confirmation. The majority of these exoplanets have been discovered using the transit method, followed by the radial velocity method. Direct imaging has been used to detect only a handful of exoplanets so far.
 
 ## 7.4. Exoplanet characteristics and habitability
 The study of exoplanets not only involves their detection but also the determination of their characteristics and potential habitability. These aspects are crucial for understanding the diversity of planetary systems and the possibility of life beyond our Solar System.
