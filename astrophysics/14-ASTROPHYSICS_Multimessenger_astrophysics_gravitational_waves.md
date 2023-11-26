@@ -64,9 +64,9 @@ Potential sources of extragalactic cosmic rays include active galactic nuclei, g
 ### 14.3.2. Cosmic ray spectrum
 The cosmic ray spectrum is a plot of the number of cosmic rays as a function of their energy. It follows a power law, with the number of cosmic rays decreasing steeply as their energy increases. However, there are two features in the spectrum, known as the "knee" and the "ankle", where the power law index changes.
 
-The "knee" of the spectrum, at an energy of about 10^15 eV, is believed to mark the maximum energy to which cosmic rays can be accelerated in our galaxy. Above this energy, the cosmic ray flux decreases more rapidly, suggesting a change in the acceleration mechanism or the escape of cosmic rays from the galaxy.
+The "knee" of the spectrum, at an energy of about $10^{15} \operatorname{eV}$, is believed to mark the maximum energy to which cosmic rays can be accelerated in our galaxy. Above this energy, the cosmic ray flux decreases more rapidly, suggesting a change in the acceleration mechanism or the escape of cosmic rays from the galaxy.
 
-The "ankle" of the spectrum, at an energy of about 10^18 eV, is believed to mark the transition from galactic to extragalactic cosmic rays. Above this energy, the cosmic ray flux decreases less rapidly, suggesting a new population of cosmic rays from extragalactic sources.
+The "ankle" of the spectrum, at an energy of about $10^{18} \operatorname{eV}$, is believed to mark the transition from galactic to extragalactic cosmic rays. Above this energy, the cosmic ray flux decreases less rapidly, suggesting a new population of cosmic rays from extragalactic sources.
 
 ### 14.3.3. Impact of cosmic rays on the Earth
 Cosmic rays impact the Earth's atmosphere, producing showers of secondary particles that can be detected on the ground. These cosmic ray air showers are used to measure the energy and direction of the primary cosmic ray.

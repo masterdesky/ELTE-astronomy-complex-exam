@@ -182,4 +182,5 @@ The nature of dark energy remains one of the greatest mysteries in science. Unde
 ## 2.5. The future of the universe
 
 
+
 [^1]: https://npac.ijclab.in2p3.fr/wp-content/uploads/2020/Cours/Cosmology/friedmann-eqn.pdf
